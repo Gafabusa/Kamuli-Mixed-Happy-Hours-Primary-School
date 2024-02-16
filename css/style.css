@@ -268,7 +268,7 @@ a:focus {
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #ffffff;
-  background-color: #df693a;
+  background-color: #33885e;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -487,7 +487,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #df693a;
+  background-color: #33885e;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -502,7 +502,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #000000;
+  background-color: #33885e;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -511,7 +511,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
-  background-color: black;
+  background-color: chocolate;
 }
 
 .slider_section .img-box img {
