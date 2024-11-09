@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Kamuli Mixed Happy Hours P/S official website</title>
+
+  <meta name="description" content="Kamuli Mixed Happy Hours P/S is a spiritual-based school located in Eastern Uganda, Kamuli District, within Bunangwe Zone, Kamuli Municipality. Our goal is to equip learners with academic knowledge and core values essential for everyday life, including spiritual values and discipline.">
+<meta name="keywords" content="Kamuli Mixed Happy Hours, school, Eastern Uganda, Kamuli District, Bunangwe Zone, Kamuli Municipality, spiritual-based, academic knowledge, core values, spiritual values, discipline">
+<meta name="author" content="Kamuli Mixed Happy Hours Primary School official website">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="2 days">
+</head>
+
+<!--Hero section-->
+<div class="bg-white bg-landing">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="index.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+          <img class="h-8 w-auto" src="images/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button id="toggleButton" class="block lg:hidden text-white focus:outline-none hover:bg-red-200">
+          <svg fill="white" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-297 -297 891.00 891.00" xml:space="preserve"
+            stroke="#000000" stroke-width="0.00297">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <g>
+                    <path
+                      d="M280.214,39.211H16.786C7.531,39.211,0,46.742,0,55.997v24.335c0,9.256,7.531,16.787,16.786,16.787h263.428 c9.255,0,16.786-7.531,16.786-16.787V55.997C297,46.742,289.469,39.211,280.214,39.211z">
+                    </path>
+                    <path
+                      d="M280.214,119.546H16.786C7.531,119.546,0,127.077,0,136.332v24.336c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.336C297,127.077,289.469,119.546,280.214,119.546z">
+                    </path>
+                    <path
+                      d="M280.214,199.881H16.786C7.531,199.881,0,207.411,0,216.668v24.335c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.335C297,207.411,289.469,199.881,280.214,199.881z">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12  text-green-600">
+        <a href="index.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Home</a>
+        <a href="about.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">About</a>
+        <a href="contact_us.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Contact
+          Us</a>
+        <a href="fees structure.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Fees Structure</a>
+          <a href="results songs.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Results & Songs</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+    </nav>
+
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div id="sidebar"
+      class="lg:hidden bg-gray-800 text-white fixed inset-y-0 left-0 w-56 transform -translate-x-full transition duration-200 ease-in-out">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-50"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="index.html" class="-m-1.5 p-1.5">
+            <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+            <img class="h-8 w-auto" src="images/logo.svg" alt="" />
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10 ">
+            <div class="space-y-2 py-6 ">
+              <a href="index.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7   text-green-600 hover:text-[#215b4b]">Home</a>
+              <a href="about.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">About</a>
+              <a href="contact_us.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Contact Us</a>
+              <a href="fees structure.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Fees Structure</a>
+                <a href="results songs.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Results & Songs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-green-600 sm:text-6xl">
+          Our Fees Structure
+        </h1>
+      </div>
+    </div>
+    <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true">
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+  </div>
+</div>
+
+<!-- Fees Structure Section and Testimonials -->
+<div style="font-family: Arial, sans-serif; color: #333;  margin: 100px 0;">
+  <h2 style="margin: 25px; color:green; font-weight:bold; font-size: 30px">Fees Structure</h2>
+
+  <!-- Day Section -->
+  <section style="margin: 0 25px;">
+    <h4 style="color: #d2691e; font-weight: bold;">1. Day Section</h4>
+    <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+      <tr style="background-color: #f9f9f9; color: #008000;">
+        <th style="text-align: left; padding: 10px; font-weight: bold;">CLASS</th>
+        <th style="text-align: left; padding: 10px; font-weight: bold;">FEES</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px; color: #444;">Nursery</td>
+        <td style="padding: 10px; color: #444;">UGX 240,000</td>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 10px; color: #444;">P.1 - P.4</td>
+        <td style="padding: 10px; color: #444;">UGX 295,000</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; color: #444;">P.5 - P.6</td>
+        <td style="padding: 10px; color: #444;">UGX 300,000</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Boarding Section -->
+  <section style="margin: 25px;">
+    <h4 style="color: #d2691e; font-weight: bold;">2. Boarding Section</h4>
+    <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+      <tr style="background-color: #f9f9f9; color: #008000;">
+        <th style="text-align: left; padding: 10px; font-weight: bold;">CLASS</th>
+        <th style="text-align: left; padding: 10px; font-weight: bold;">FEES</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px; color: #444;">Nursery - P.6</td>
+        <td style="padding: 10px; color: #444;">UGX 520,000</td>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 10px; color: #444;">P.7</td>
+        <td style="padding: 10px; color: #444;">UGX 530,000</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Other Requirements -->
+  <section style="margin: 25px;">
+    <h4 style="color: #d2691e; font-weight: bold;">Other Requirements per Pupil</h4>
+    <ul style="color: #006400; margin-top: 15px; padding-left: 20px; list-style-type: square;">
+      <li>Class Sweater = UGX 35,000</li>
+      <li>Sports Wear (1) = UGX 35,000</li>
+      <li>School Uniform (2 x 35,000) = UGX 70,000</li>
+      <li>Sunday Wear = UGX 25,000</li>
+      <li>Day Wear (2 Pairs x 20,000) = UGX 40,000</li>
+      <li>Casual Sweater = UGX 35,000</li>
+      <li>Pocket Money (Nursery - P.7) = UGX 65,000 <small style="color: #d2691e;">(Paid at school)</small></li>
+      <li>Ream of Paper = UGX 29,000</li>
+      <li>Development Fee = UGX 55,000 <small style="color: #d2691e;">(One-time payment)</small></li>
+      <li>Shaving/Trimming Fee = UGX 3,000 per term</li>
+      <li>Rags (2 x 4,000) = UGX 8,000</li>
+      <li>Scrubbing Brush (1) = UGX 8,000 <small style="color: #d2691e;">(Nursery - P.4 only)</small></li>
+      <li>Squeezer (1) = UGX 7,000 <small style="color: #d2691e;">(P.5 - P.6 only)</small></li>
+    </ul>
+  </section>
+
+  <footer style="margin: 25px; color: #d2691e; font-size: 19px;">
+    <strong>NB:</strong> Additional requirements are listed on the Admission Form.
+  </footer>
+</div>
+
+<section class="px-6 py-12 bg-gray-50">
+  <!-- Title -->
+  <div class="text-center mb-12">
+    <h2 class="text-3xl font-bold text-green-600">What Our Former Pupils Say</h2>
+    <p class="mt-2 text-gray-600">Discover the journeys and achievements of our former pupils as they share their experiences and successes.</p>
+  </div>
+  <div class="wrapper grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <!-- Testimonial 1 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="images/Esther.jpg" alt="Siminyu Esther" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Siminyu Esther</h3>
+          <p class="text-sm font-medium text-green-700">Medicine & Surgery, Makerere University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">Joined the school in 2004 in baby class and finished primary seven in 2013. She then went to Seeta High School for O'level in 2014-2017, then to St. Mary's College Lugazi for A'level in 2018. Joined Makerere University in 2021, currently a fifth-year student (2024) doing Medicine and Surgery.</p>
+    </div>
+    <!-- Testimonial 2 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Byansi.jpg" alt="Byansi William" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Byansi William</h3>
+          <p class="text-sm font-medium text-green-700">Medicine & Surgery, Mbarara University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">Joined in 2003 in baby class and completed primary seven in 2011, emerging as the best pupil with four aggregates. Later joined Butiki College for O & A levels, went to Mbarara University for Medicine and Surgery, now completed.</p>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Gafabusa.png" alt="Gafabusa Willy" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Gafabusa Willy</h3>
+          <p class="text-sm font-medium text-green-700">Software Engineering, Makerere University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">Joined the school in 2011 in primary four and finished primary seven in 2014 with four aggregates. Later joined Hilton High school Mukono for O'level, St. Michael International School Wakiso for A'level. Currently a fourth-year student(2024) doing Software Engineering at Makerere University.(developed this website,his email: <a href="mailto:willygafabusa@gmail.com" style="color: blue;">willygafabusa@gmail.com)</a></p>
+    </div>
+    <!-- Testimonial 4 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Yunusu.jpg" alt="Ngobi Yunusu" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Ngobi Yunusu</h3>
+          <p class="text-sm font-medium text-green-700">Civil Engineering, KIU</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">Joined the school in 2005 in baby class and finished primary seven in 2014 with four aggregates. Later joined Hilton High school Mukono for O'level and St. Mary's College Lugazi for A'level. Currently a fourth-year student (2024) at KIU doing Civil Engineering.</p>
+    </div>
+    <!-- Testimonial 5 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Mejje.JPG" alt="Mejje Emmanuel" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Mejje Emmanuel</h3>
+          <p class="text-sm font-medium text-green-700">Bachelor of Pharmacy, Makerere University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">He joined the school in 2010 in primary five and finished primary seven in 2012. Later joined Namilyango College for O & A levels, then Makerere University in 2019 for a Bachelor's degree in Pharmacy, which he has completed.</p>
+    </div>
+    <!-- Testimonial 6 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Kituyi.jpg" alt="Kituyi Sophie" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Kituyi Sophie</h3>
+          <p class="text-sm font-medium text-green-700">Civil Engineering, Makerere University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">She joined the school in 2012 in primary seven. Later joined Nabisunsa Girls School for O & A levels, and Makerere University in 2019 for a Bachelor's degree in Civil Engineering, which she has completed.</p>
+    </div>
+    <!-- Testimonial 7 -->
+    <div class="box bg-white rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+      <div class="content flex items-center p-6">
+        <div class="image w-32 h-32 mr-4 rounded-full overflow-hidden">
+          <img src="../images/Jovianah.jpg" alt="Babirye Jovianah Patricia" class="w-full h-full object-cover">
+        </div>
+        <div class="info">
+          <h3 class="text-lg font-semibold text-gray-800">Babirye Jovianah Patricia</h3>
+          <p class="text-sm font-medium text-green-700">Veterinary Medicine, Makerere University</p>
+        </div>
+      </div>
+      <p class="px-6 pb-6 text-gray-600">She joined the school in 2008 in primary one and finished primary seven in 2014. Later joined Gayaza High School for O & A levels, and is currently a fourth-year student (2024) doing Veterinary Medicine at Makerere University.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Programs Section -->
+<section class="bg-white text-white mt-32 sm:mt-32 lg:mt-32 mb-32">
+  <div class="mx-auto max-w-screen-xl px-6 lg:px-8">
+    <div class="mx-auto">
+      <h2 class="my-4 text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">Our Programs</h2>
+      <p class="mt-4 text-gray-600">At Kamuli Mixed Happy Hours P/S, we offer comprehensive education, focusing on core subjects, critical thinking, extracurricular activities, and technology integration to prepare students for future success.</p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Religious Affiliation.</h2>
+        <p class="mt-1 text-white">We nurture our pupils to fear God, as it is biblical that the fear of the lord is the beginning of wisdom <strong>(Proverbs 1:7).</strong></p>
+      </div>
+
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Extracurricular Activities
+        </h2>
+        <p class="mt-1 text-white">We promote well-rounded development through sports like football
+          and netball, creative expression in arts and music, and diverse clubs nurturing special interests and talents.</p>
+      </div>
+
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Special Programs</h2>
+        <p class="mt-1 text-white">We provide tailored support with remedial classes, enrichment for
+          gifted students, and counseling services to support emotional well-being and academic success.<p>
+      </div>
+
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Community Engagement and Service Learning</h2>
+        <p class="mt-1 text-white">We foster community engagement through service projects,
+          environmental education emphasizing sustainability and doing community outreaches.</p>
+      </div>
+
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Academics.</h2>
+        <p class="mt-1 text-white">we have a well qualified staff with experience to equip our learners with the best academic knowledge. We also have a fully stocked library to support learners to read more and make research.</p>
+      </div>
+
+      <div
+        class="block bg-gradient-to-br from-green-700 to-green-900 rounded-xl border border-gray-200 p-6 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10">
+        <h2 class="my-2 text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">Health and Wellness</h2>
+        <p class="mt-1 text-white">We promote health with education on nutrition and hygiene, regular
+          physical activity for fitness, and nutritious meals supporting students' overall well-being.</p>
+      </div>
+    </div>
+    <!-- <div class="mx-auto mt-4 lg:mt-16">
+      <a href="contact_us.html" class="block mb-8 rounded-md bg-green-600 px-3.5 py-4 text-sm font-semibold text-white shadow-sm hover:text-[#2c7761] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:inline-block sm:w-auto">Enroll Today</a>
+      </div> -->
+      
+</section>
+
+<!--Footer Section-->
+<footer class="bg-gradient-to-br from-green-700 to-green-900 py-16 text-white">
+  <div class="container px-6 py-12 mx-auto">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Quick Links
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <a href="index.html"
+            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Home</a>
+          <a href="about.html"
+            class="transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">About</a>
+          <a href="contact_us.html"
+            class="transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">Contact
+            Us</a>
+          <a href="fees structure.html"
+            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Fees Structure</a>
+            <a href="results songs.html"
+            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Results & Songs</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Office Hours
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Monday
+            to Friday: 8:00 AM - 5:00 PM</p>
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Saturday: 9:00 AM - 1:00 PM</p>
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Sunday: Closed</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Contact Us
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="transition-colors duration-300 text-white font-semibold ">
+            Phone: +256782459302
+          </p>
+          <p class="transition-colors duration-300 text-white font-semibold">
+            Email: siminyudeo@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-6 border-white md:my-10 dark:border-white" />
+
+    <div class="flex flex-col items-center justify-between sm:flex-row">
+      <p class="mt-4 text-sm sm:mt-0 text-white font-semibold">
+        © <span id="currentYear"></span>  Kamuli Mixed Happy Hours P/S. All Rights Reserved.
+      </p>
+      <script>
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+      </script>
+    </div>
+  </div>
+</footer>
+
+<!--JavaScript to toggle menu visibility on small screens-->
+<script>
+  document.getElementById('toggleButton').addEventListener('click', function () {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('-translate-x-full');
+  });
+</script>
+</body>

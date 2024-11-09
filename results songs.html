@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="js/main.js"></script>
+  <title>Kamuli Mixed Happy Hours P/S official website</title>
+
+  <meta name="description" content="Kamuli Mixed Happy Hours P/S is a spiritual-based school located in Eastern Uganda, Kamuli District, within Bunangwe Zone, Kamuli Municipality. Our goal is to equip learners with academic knowledge and core values essential for everyday life, including spiritual values and discipline.">
+<meta name="keywords" content="Kamuli Mixed Happy Hours, school, Eastern Uganda, Kamuli District, Bunangwe Zone, Kamuli Municipality, spiritual-based, academic knowledge, core values, spiritual values, discipline">
+<meta name="author" content="Kamuli Mixed Happy Hours Primary School official website">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="2 days">
+</head>
+
+<!--Hero section-->
+<div class="bg-white bg-landing">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="index.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+          <img class="h-8 w-auto" src="images/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button id="toggleButton" class="block lg:hidden text-white focus:outline-none hover:bg-red-200">
+          <svg fill="white" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-297 -297 891.00 891.00" xml:space="preserve"
+            stroke="#000000" stroke-width="0.00297">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <g>
+                    <path
+                      d="M280.214,39.211H16.786C7.531,39.211,0,46.742,0,55.997v24.335c0,9.256,7.531,16.787,16.786,16.787h263.428 c9.255,0,16.786-7.531,16.786-16.787V55.997C297,46.742,289.469,39.211,280.214,39.211z">
+                    </path>
+                    <path
+                      d="M280.214,119.546H16.786C7.531,119.546,0,127.077,0,136.332v24.336c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.336C297,127.077,289.469,119.546,280.214,119.546z">
+                    </path>
+                    <path
+                      d="M280.214,199.881H16.786C7.531,199.881,0,207.411,0,216.668v24.335c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.335C297,207.411,289.469,199.881,280.214,199.881z">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12  text-green-600">
+        <a href="index.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Home</a>
+        <a href="about.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">About</a>
+        <a href="contact_us.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Contact
+          Us</a>
+        <a href="fees structure.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Fees Structure</a>
+          <a href="results songs.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Results & Songs</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+    </nav>
+
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div id="sidebar"
+      class="lg:hidden bg-gray-800 text-white fixed inset-y-0 left-0 w-56 transform -translate-x-full transition duration-200 ease-in-out">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-50"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="index.html" class="-m-1.5 p-1.5">
+            <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+            <img class="h-8 w-auto" src="images/logo.svg" alt="" />
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10 ">
+            <div class="space-y-2 py-6 ">
+              <a href="index.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7   text-green-600 hover:text-[#215b4b]">Home</a>
+              <a href="about.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">About</a>
+              <a href="contact_us.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Contact
+                Us</a>
+              <a href="fees structure.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Fees Structure</a>
+                <a href="results songs.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Results & Songs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-green-600 sm:text-6xl">
+          Results and Choir Songs
+        </h1>
+      </div>
+    </div>
+    <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true">
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+  </div>
+</div>
+
+<!--RESULTS SECTION-->
+<!-- <br><br> -->
+<section class="my-20  py-8">
+  <h3 class="text-3xl font-bold text-center text-green-600 mb-8">Results For Previous Years</h3>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+    <a href="Results/2011.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2011</a>
+    <a href="Results/2012.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2012</a>
+    <a href="Results/2013.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2013</a>
+    <a href="Results/2014.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2014</a>
+    <a href="Results/2016.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2016</a>
+    <a href="Results/2020.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2020</a>
+    <a href="Results/2023.html" class="block px-4 py-3 text-center text-white font-semibold bg-green-600 rounded-lg hover:text-[#f97316] transition duration-200 cursor-pointer">2023</a>
+  </div>
+</section>
+
+<!-- Choir Songs Section -->
+<section class="my-20 py-8">
+  <h3 class="text-3xl font-bold text-center text-green-600 mb-8">Choir Songs</h3>
+  <h3 class="font-bold text-center text-green-600 mb-8">Click on the song in order to listen and you can also download, enjoy🥰❤.</h3>
+  <div class="max-w-3xl mx-auto">
+
+    <!-- Song Playlist -->
+    <div class="space-y-4">
+      <!-- Song 1 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song1', 'audio1')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Abazade</p>
+        <div id="song1" class="song-controls hidden mt-2">
+          <audio id="audio1" controls>
+            <source src="songs/Abazade.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Abazade.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+      
+      <!-- Song 2 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song2', 'audio2')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Congratulations</p>
+        <div id="song2" class="song-controls hidden mt-2">
+          <audio id="audio2" controls>
+            <source src="songs/Congratulations.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Congratulations.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 3 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song3', 'audio3')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Gyetuvude</p>
+        <div id="song3" class="song-controls hidden mt-2">
+          <audio id="audio3" controls>
+            <source src="songs/Gyetuvude.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Gyetuvude.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 4 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song4', 'audio4')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Jesus Hold My Hand</p>
+        <div id="song4" class="song-controls hidden mt-2">
+          <audio id="audio4" controls>
+            <source src="songs/Jesus Hold My Hand.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Jesus Hold My Hand.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 5 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song5', 'audio5')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Noah</p>
+        <div id="song5" class="song-controls hidden mt-2">
+          <audio id="audio5" controls>
+            <source src="songs/Noah.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Noah.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 6 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song6', 'audio6')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">School Anthem</p>
+        <div id="song6" class="song-controls hidden mt-2">
+          <audio id="audio6" controls>
+            <source src="songs/School Anthem.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/School Anthem.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 7 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song7', 'audio7')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Tewali Akwenkana</p>
+        <div id="song7" class="song-controls hidden mt-2">
+          <audio id="audio7" controls>
+            <source src="songs/Tewali Akwenkana.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Tewali Akwenkana.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+      <!-- Song 8 -->
+      <div class="song-item bg-green-100 p-2 rounded-lg cursor-pointer border-t-2 border-b-2 border-red-100" onclick="togglePlayback('song8', 'audio8')">
+        <p class="text-lg font-semibold text-green-700 hover:text-black">Tulina Katonda</p>
+        <div id="song8" class="song-controls hidden mt-2">
+          <audio id="audio8" controls>
+            <source src="songs/Tulina Katonda.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <a href="songs/Tulina Katonda.mp3" download class="text-green-600 hover:text-[#f97316] font-semibold ml-4">Download</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<script>
+  // Track the ID of the currently playing audio element
+  let currentAudioId = null;
+
+  function togglePlayback(songId, audioId) {
+    // Hide all song controls
+    document.querySelectorAll('.song-controls').forEach(control => control.classList.add('hidden'));
+
+    // Get the current audio element and the selected audio element
+    const selectedAudio = document.getElementById(audioId);
+
+    // Pause the current audio if it’s playing and different from the selected audio
+    if (currentAudioId && currentAudioId !== audioId) {
+      const currentAudio = document.getElementById(currentAudioId);
+      currentAudio.pause();
+      currentAudio.currentTime = 0; // Reset to start
+    }
+
+    // Toggle visibility of the selected song's controls
+    const selectedControls = document.getElementById(songId);
+    selectedControls.classList.toggle('hidden');
+
+    // If controls are now visible, set and play the new audio; otherwise, reset currentAudioId
+    if (!selectedControls.classList.contains('hidden')) {
+      currentAudioId = audioId;
+      selectedAudio.play();
+    } else {
+      currentAudioId = null;
+      selectedAudio.pause(); // Stop the selected audio if it was playing and is now hidden
+      selectedAudio.currentTime = 0;
+    }
+  }
+</script>
+
+<!--Footer Section-->
+<footer class="bg-gradient-to-br from-green-700 to-green-900 py-16 text-white">
+  <div class="container px-6 py-12 mx-auto">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Quick Links
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <a href="index.html"
+            class="text-white transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Home</a>
+          <a href="about.html"
+            class="text-white transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">About</a>
+          <a href="contact_us.html"
+            class="text-white transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">Contact
+            Us</a>
+          <a href="fees structure.html"
+            class="text-white transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Fees Structure</a>
+            <a href="results songs.html"
+            class="text-white transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Results & Songs</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Office Hours
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="text-white transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Monday
+            to Friday: 8:00 AM - 5:00 PM</p>
+          <p class="text-white transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Saturday: 9:00 AM - 1:00 PM</p>
+          <p class="text-white transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Sunday: Closed</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Contact Us
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="text-white transition-colors duration-300 text-white font-semibold ">
+            Phone: +256782459302
+          </p>
+          <p class="text-white transition-colors duration-300 text-white font-semibold">
+            Email: siminyudeo@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-6 border-white md:my-10 dark:border-white" />
+
+    <div class="flex flex-col items-center justify-between sm:flex-row">
+      <p class="mt-4 text-sm sm:mt-0 text-white font-semibold">
+        © <span id="currentYear"></span>  Kamuli Mixed Happy Hours P/S. All Rights Reserved.
+      </p>
+      <script>
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+      </script>
+    </div>
+  </div>
+</footer>
+  
+  <!--JavaScript to toggle menu visibility on small screens-->
+  <script>
+    document.getElementById('toggleButton').addEventListener('click', function () {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('-translate-x-full');
+    });
+  </script>
+  </body>
+  
+  </html>

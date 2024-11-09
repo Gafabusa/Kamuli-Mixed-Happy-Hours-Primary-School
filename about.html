@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Kamuli Mixed Happy Hours P/S official website</title>
+
+  <meta name="description" content="Kamuli Mixed Happy Hours P/S is a spiritual-based school located in Eastern Uganda, Kamuli District, within Bunangwe Zone, Kamuli Municipality. Our goal is to equip learners with academic knowledge and core values essential for everyday life, including spiritual values and discipline.">
+<meta name="keywords" content="Kamuli Mixed Happy Hours, school, Eastern Uganda, Kamuli District, Bunangwe Zone, Kamuli Municipality, spiritual-based, academic knowledge, core values, spiritual values, discipline">
+<meta name="author" content="Kamuli Mixed Happy Hours Primary School official website">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="2 days">
+</head>
+
+<!--Hero section-->
+<div class="bg-white bg-landing">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="index.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+          <img class="h-8 w-auto" src="images/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button id="toggleButton" class="block lg:hidden text-white focus:outline-none hover:bg-red-200">
+          <svg fill="white" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-297 -297 891.00 891.00" xml:space="preserve"
+            stroke="#000000" stroke-width="0.00297">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <g>
+                    <path
+                      d="M280.214,39.211H16.786C7.531,39.211,0,46.742,0,55.997v24.335c0,9.256,7.531,16.787,16.786,16.787h263.428 c9.255,0,16.786-7.531,16.786-16.787V55.997C297,46.742,289.469,39.211,280.214,39.211z">
+                    </path>
+                    <path
+                      d="M280.214,119.546H16.786C7.531,119.546,0,127.077,0,136.332v24.336c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.336C297,127.077,289.469,119.546,280.214,119.546z">
+                    </path>
+                    <path
+                      d="M280.214,199.881H16.786C7.531,199.881,0,207.411,0,216.668v24.335c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.335C297,207.411,289.469,199.881,280.214,199.881z">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12  text-green-600">
+        <a href="index.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Home</a>
+        <a href="about.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">About</a>
+        <a href="contact_us.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Contact
+          Us</a>
+        <a href="fees structure.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Fees Structure</a>
+          <a href="results songs.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Results & Songs</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+    </nav>
+
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div id="sidebar"
+      class="lg:hidden bg-gray-800 text-white fixed inset-y-0 left-0 w-56 transform -translate-x-full transition duration-200 ease-in-out">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-50"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="index.html" class="-m-1.5 p-1.5">
+            <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
+            <img class="h-8 w-auto" src="images/logo.svg" alt="" />
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10 ">
+            <div class="space-y-2 py-6 ">
+              <a href="index.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7   text-green-600 hover:text-[#215b4b]">Home</a>
+              <a href="about.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">About</a>
+              <a href="contact_us.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Contact Us</a>
+              <a href="fees structure.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Fees Structure</a>
+                <a href="results songs.html"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Results & Songs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-green-600 sm:text-6xl">
+          About Us
+        </h1>
+      </div>
+    </div>
+    <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true">
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "></div>
+    </div>
+  </div>
+</div>
+<!-- End of Hero Section -->
+
+<!-- About Us Section-->
+<div class="bg-white pt-32 pb-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto ">
+      <p class="mt-2 text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">More About Us</p>
+      <p class="mt-6 text-lg leading-8 text-gray-900">At Kamuli Mixed Happy Hours P/S, we are committed to providing bursariess, fostering professional development, and delivering impactful education that shapes bright futures for our pupils through the following aspects</p>
+    </div>
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div class="relative pl-16">
+          <dt class="text-base font-bold leading-7 text-green-600">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg ">
+              <svg height="84px" width="84px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 245.83 245.83" xml:space="preserve"
+                fill="##5cab8f" stroke="#006400" stroke-width="0.0024582700000000002">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <g>
+                        <path style="fill:#5cab8f;"
+                          d="M223.336,148.384l-0.137-23.527l22.628-12.662L122.576,47.195L0,113.495l49.144,28.216 l0.098,16.766l0.01,1.339l0.449-0.215c-0.518,0.703-0.85,1.426-0.84,2.149c0.039,8.246,33.326,14.772,74.41,14.548 c41.064-0.215,74.302-7.122,74.273-15.349c0-0.723-0.381-1.426-0.889-2.149l0.449,0.215v-1.339l-0.088-16.834l21.309-13.258 l0.117,20.83c-2.345,1.006-3.976,3.312-3.957,6.009c0.02,3.537,2.892,6.399,6.458,6.37c3.586-0.02,6.429-2.912,6.409-6.439 C227.332,151.657,225.691,149.371,223.336,148.384z M123.241,170.621c-36.452,0.205-66.017-3.801-66.046-8.91 c-0.029-5.11,29.496-9.399,65.949-9.585c36.462-0.205,66.017,3.781,66.037,8.881 C189.209,166.098,159.703,170.426,123.241,170.621z M195.335,127.183c-4.934-5.188-22.618-18.886-72.426-18.602 c-49.877,0.264-67.336,14.128-72.211,19.394l-0.029-4.963c0,0,14.147-21.524,72.202-21.827 c58.025-0.313,72.436,21.045,72.436,21.045L195.335,127.183z M215.755,162.199l-2.511,36.433 c7.767-12.203,14.255-7.66,14.255-7.66l-0.156-28.832C218.998,165.414,215.755,162.199,215.755,162.199z">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+            </div>
+            Scholarships and Support
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-900">We offer bursaries to pupils with academic potential but lacking financial resources. Our program addresses financial challenges, ensuring every child can achieve their educational goals.</dd>
+        </div>
+        <div class="relative pl-16">
+          <dt class="text-base font-bold leading-7 text-green-600">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+                <rect width="100%" height="100%" fill="#5cab8f" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 1a9 9 0 00-9 9c0 3.9 2.6 7.2 6.1 8.3V22h5.8v-3.7c3.5-1.1 6.1-4.4 6.1-8.3A9 9 0 0012 1zm-1 21h2v1h-2v-1z" />
+              </svg>
+
+            </div>
+            Professional Development
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-900">We invest in continuous professional development for our teachers. Regular training, workshops, and educational resources equip them with the latest teaching methodologies and best practices.</dd>
+        </div>
+        <div class="relative pl-16">
+          <dt class="text-base font-bold leading-7 text-green-600">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+                <rect width="100%" height="100%" fill="#5cab8f" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15.535 14.036A8.962 8.962 0 0112 21a8.962 8.962 0 01-3.535-.964m7.07-6.97A8.962 8.962 0 0112 3a8.962 8.962 0 013.535.964m-7.07 6.97A8.962 8.962 0 013 12a8.962 8.962 0 01.964-3.535m14.072 0A8.962 8.962 0 0112 21a8.962 8.962 0 01-3.535-.964m7.07-6.97A8.962 8.962 0 0112 3a8.962 8.962 0 013.535.964M6.964 6.964A8.962 8.962 0 013 12a8.962 8.962 0 01.964-3.535m14.072 0A8.962 8.962 0 0112 3a8.962 8.962 0 013.535.964M6.964 6.964A8.962 8.962 0 013 12a8.962 8.962 0 01.964-3.535" />
+              </svg>
+
+
+            </div>
+            Our Impact
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-900">Since 2011, we have impacted Kamuli's education. Our pupils excel in higher education and professions. They contribute positively to communities.</dd>
+        </div>
+        <div class="relative pl-16">
+          <dt class="text-base font-bold leading-7 text-green-600">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg ">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-49 -49 588.01 588.01" xml:space="preserve"
+                width="64px" height="64px" fill="white" stroke="#000000" stroke-width="0.0049001">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <rect width="100%" height="100%" fill="#5cab8f" />
+                      <path
+                        d="M169.994,106.097l-6.1,3c-7.6,3.7-16.5,4.2-24.4,1.4l-10.2-3.6c-0.6-0.4-1.2-0.7-1.8-0.9l-62.8-21.5 c-4.7-1.6-9.9,0.9-11.5,5.6l-52.7,153.5c-0.8,2.3-0.6,4.8,0.4,6.9s2.9,3.8,5.2,4.6l62.7,21.5c1,0.3,2,0.5,2.9,0.5 c3.8,0,7.3-2.4,8.6-6.1l49.7-144.6l3.4,1.2c12.5,4.4,26.5,3.6,38.5-2.2l6.1-3c7.5-3.7,16.3-4.2,24.2-1.5l115.3,39.7 c-1.2,4.8-3.6,10.5-8,13.6c-4.9,3.4-12.2,3.4-21.8,0.1l-51.4-17.6c-2.4-0.8-5-0.6-7.2,0.6c-2.2,1.2-3.8,3.3-4.5,5.7 c-0.1,0.3-7.2,26.9-29.9,39.1c-14.3,7.7-32.1,8-53,0.9c-4.7-1.6-9.9,0.9-11.5,5.6c-1.6,4.7,0.9,9.9,5.6,11.5 c12,4.1,23.3,6.2,33.8,6.2c12.2,0,23.4-2.7,33.6-8.2c20.3-10.9,30.8-30,35.6-41.4l42.9,14.7c15.3,5.3,28.1,4.5,38-2.4 c15.9-11,16.7-33.3,16.8-34.3c0.1-4-2.4-7.5-6.1-8.8l-122.4-42.2C195.694,99.497,181.794,100.397,169.994,106.097z M66.194,256.497l-45.6-15.6l46.7-136.3l45.6,15.6L66.194,256.497z">
+                      </path>
+                      <rect id="XMLID_142_" x="334.311" y="148.377"
+                        transform="matrix(-0.4395 -0.8982 0.8982 -0.4395 434.9314 634.4379)" style="fill:#5cab8f;"
+                        width="162.188" height="66.294"></rect>
+                      <path
+                        d="M410.194,266.797l-21.5,19.8c-19.5,17.9-41.5,33-65.3,44.6l-114.1,55.8c-5,2.5-11.1,0.4-13.6-4.7 c-2.5-5-0.4-11.1,4.7-13.6l1.4-0.7l0,0l62.4-30.5c4.5-2.2,6.4-7.6,4.2-12.1c-2.2-4.5-7.6-6.4-12.1-4.2l-62.4,30.5l0,0l-31.4,15.4 c-5,2.5-11.1,0.4-13.6-4.7c-1.2-2.4-1.4-5.2-0.5-7.7c0.9-2.6,2.7-4.6,5.1-5.8l23.7-11.6l0,0l67.8-33.2c4.5-2.2,6.4-7.6,4.2-12.1 s-7.6-6.4-12.1-4.2l-67.9,33.3l0,0l-2.6,1.3l-32.4,15.9c-2.4,1.2-5.2,1.4-7.7,0.5c-2.6-0.9-4.6-2.7-5.8-5.1 c-2.5-5-0.4-11.1,4.7-13.6l11.2-5.5l0,0l22.9-11.2l6.4-3.1l0,0l52.6-25.8c4.5-2.2,6.4-7.6,4.2-12.1s-7.6-6.4-12.1-4.2l-57,27.9 l-24.9,12.2c-5,2.4-11.1,0.4-13.6-4.7c-1.2-2.4-1.4-5.2-0.5-7.7c0.9-2.6,2.7-4.6,5.1-5.8l43.5-21.3c4.5-2.2,6.4-7.6,4.2-12.1 s-7.6-6.4-12.1-4.2l-43.5,21.3c-6.8,3.3-11.9,9.1-14.3,16.2s-2,14.8,1.3,21.6c2.1,4.2,5.1,7.7,8.7,10.3c-6.3,8.3-7.9,19.7-3,29.7 c3.3,6.8,9.1,11.9,16.2,14.3c3,1,6,1.5,9,1.5c-0.1,4.5,0.8,9,2.9,13.1c4.9,10,15,15.8,25.4,15.8c4.2,0,8.4-0.9,12.4-2.9l6.4-3.1 c0.3,3.4,1.2,6.7,2.7,9.9c4.9,10,15,15.8,25.4,15.8c4.2,0,8.4-0.9,12.4-2.9l114.1-55.8c25.4-12.4,48.8-28.4,69.6-47.5l25.5-23.5 l58.4-28.6c4.5-2.2,6.4-7.6,4.2-12.1l-71.4-145.5c-1.1-2.2-2.9-3.8-5.2-4.6c-2.3-0.8-4.8-0.6-6.9,0.4l-59.6,29.1 c-4.5,2.2-6.4,7.6-4.2,12.1L410.194,266.797z M405.394,106.197l63.3,129.5l-43.3,21.2l-63.3-129.5L405.394,106.197z">
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+
+            </div>
+            Join Our Family
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-900">Join the Kamuli Mixed Happy Hours P/S family. Parents,pupils, educators, and partners are welcome. Help us nurture young minds and inspire innovation.</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<!-- School Core Values-->
+<div class="relative isolate overflow-hidden py-16 sm:py-24 lg:py-32 bg-gradient-to-br from-green-700 to-green-900">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Core Values.</p>
+    <!-- <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2"> -->
+    <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-4 lg:pt-2">
+      <div class="flex flex-col items-start">
+        <dt class="mt-4 text-2xl font-semibold leading-9 tracking-tight  text-green-600">Our Mission .</dt>
+        <dd class="mt-2 leading-7 text-white">To produce world intellectuals,researchers,evangelists and leaders who are able to address practical needs of people.</dd>
+      </div>
+      <div class="flex flex-col items-start">
+        <dt class="mt-4 text-2xl font-semibold leading-9 tracking-tight  text-green-600">Innovation.</dt>
+        <dd class="mt-2 leading-7 text-white">Striving for the highest standards in education and personal conduct.</dd>
+      </div>
+      <div class="flex flex-col items-start">
+        <dt class="mt-4 text-2xl font-semibold leading-9 tracking-tight  text-green-600">Integrity</dt>
+        <dd class="mt-2 leading-7 text-white"> Promoting honesty, respect, and responsibility among pupils and staff.</dd>
+      </div>
+      <div class="flex flex-col items-start">
+        <dt class="mt-4 text-2xl font-semibold leading-9 tracking-tight  text-green-600">Community</dt>
+        <dd class="mt-2 leading-7 text-white"> Building strong, supportive relationships within and outside the school</dd>
+      </div>
+    </dl>
+  </div>
+</div>
+
+<!-- Our Philosophies Section -->
+<div class="overflow-hidden bg-white pt-32 pb-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      class="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <!-- Text Section -->
+      <div class="text-section order-2 lg:order-1 lg:pr-8 lg:pt-4">
+        <div class="relative mx-auto max-w-7xl sm:static">
+          <div class="sm:max-w-lg">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-green-600 ">
+              Educational Philosophy </p>
+            <p class="mt-6 text-lg leading-8 text-gray-900"> Our educational philosophy is centred on the belief that
+              each child is unique and deserves personalised learning
+              experiences. We focus on: </p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 bg-green-400" viewBox="0 0 24 24" fill="white"
+                    aria-hidden="true">
+                    <path
+                      d="M12 2C6.486 2 2 6.486 2 12c0 2.094.816 4.02 2.162 5.455A9.945 9.945 0 0 0 12 22a9.945 9.945 0 0 0 7.838-4.545A9.973 9.973 0 0 0 22 12c0-5.514-4.486-10-10-10zm0 18c-1.976 0-3.824-.805-5.162-2.145A7.942 7.942 0 0 1 4 12c0-4.411 3.589-8 8-8s8 3.589 8 8c0 2.094-.816 4.02-2.162 5.455A7.942 7.942 0 0 1 12 20zM12 6a6 6 0 1 0 0 12A6 6 0 1 0 12 6zm0 10a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+                  </svg>
+                  Individual Attention</dt>
+                <dd class="inline">Striving for the highest standards in education and personal conduct.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 bg-green-400" viewBox="0 0 20 20" fill="white"
+                    aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M10 2a6 6 0 00-6 6v4a6 6 0 0012 0V8a6 6 0 00-6-6zM8 8a2 2 0 114 0 2 2 0 01-4 0zm2 10a5 5 0 01-4.546-2.917A4 4 0 0110 14a4 4 0 014.546 2.917A5 5 0 0110 18z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  Lifelong Learning</dt>
+                <dd class="inline">
+                  Building strong, supportive relationships within and outside the school.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 bg-green-400" viewBox="0 0 20 20" fill="white"
+                    aria-hidden="true">
+                    <path
+                      d="M10 2a2 2 0 00-2 2v12a2 2 0 002 2 2 2 0 002-2V4a2 2 0 00-2-2zM8 4a2 2 0 114 0v12a2 2 0 11-4 0V4zm2 13a1 1 0 100-2 1 1 0 000 2zM7 10a1 1 0 100 2 1 1 0 000-2zm1-3a1 1 0 100-2 1 1 0 000 2zm5-1a1 1 0 100 2 1 1 0 000-2zM9 7a1 1 0 100-2 1 1 0 000 2zM8 5a1 1 0 100-2 1 1 0 000 2zM7 12a1 1 0 100 2 1 1 0 000-2z" />
+                  </svg>
+                  Our Impact
+
+                </dt>
+                <dd class="inline">
+                  Since 2010, we have impacted Kamuli's education. Our pupils excel in higher education and professions. They contribute positively to communities.
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <!-- Image Section -->
+      <div class="image-section order-1 lg:order-2 mt-5 lg:mt-0 flex justify-between">
+        <div class="flex items-center space-x-6 lg:space-x-8 justify-center">
+          <img src="/images/pupil 4.jpg" alt="" class="h-full w-full object-cover object-center rounded-md">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Work with Us Section-->
+<div class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-64 programs-img mb-32">
+  <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
+    aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+      style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+    </div>
+  </div>
+  <div
+    class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
+    aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+      style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+    </div>
+  </div>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class="mt-2 text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">Academic Programs</h2>
+      <p class="mt-6 text-lg leading-8 text-white">
+        Our academic programs are designed to provide a balanced and comprehensive education. We offer:
+      <ul class="mx-auto mt-4 text-white text-left list-none">
+        <li class="mb-2 flex items-start">
+          <svg class="flex-shrink-0 h-5 w-5  mr-2" viewBox="0 0 496.158 496.158" fill="currentColor"
+            aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path style="fill:#5cab8f;" d="M248.082,0.003C111.07,0.003,0,111.061,0,248.085c0,137,111.07,248.07,248.082,248.07
+              c137.006,0,248.076-111.07,248.076-248.07C496.158,111.061,385.088,0.003,248.082,0.003z" />
+            <path style="fill:#FFFFFF;" d="M278.767,145.419c-3.126-4.003-7.276-6.006-12.451-6.006c-4.591,0-7.716,0.879-9.375,2.637
+              c-1.662,1.758-5.226,6.445-10.693,14.063c-5.47,7.617-11.744,14.502-18.823,20.654c-7.082,6.152-16.53,12.012-28.345,17.578
+              c-7.91,3.712-13.429,6.738-16.553,9.082c-3.126,2.344-4.688,6.006-4.688,10.986c0,4.298,1.586,8.082,4.761,11.353
+              c3.172,3.273,6.812,4.907,10.913,4.907c8.592,0,25.292-9.521,50.098-28.564V335.41c0,7.814,1.806,13.722,5.42,17.725
+              c3.612,4.003,8.397,6.006,14.355,6.006c13.378,0,20.068-9.814,20.068-29.443V161.972
+              C283.455,154.941,281.892,149.425,278.767,145.419z" />
+          </svg>
+          Early Childhood/Nursery Education: Laying a strong foundation in the early years through baby, middle and top class.
+        </li>
+        <li class="mb-2 flex items-start">
+          <svg class="flex-shrink-0 h-5 w-5 mr-2" viewBox="0 0 496.158 496.158" fill="currentColor"
+            aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path style="fill:#5cab8f;" d="M248.082,0.003C111.07,0.003,0,111.061,0,248.085c0,137,111.07,248.07,248.082,248.07
+	c137.006,0,248.076-111.07,248.076-248.07C496.158,111.061,385.088,0.003,248.082,0.003z" />
+            <path style="fill:#FFFFFF;"
+              d="M319.783,325.595c-4.005-3.124-9.814-4.688-17.432-4.688h-76.465c2.44-3.71,4.834-6.885,7.178-9.521
+	c5.468-6.64,15.55-15.967,30.249-27.979c14.696-12.012,25.17-20.824,31.421-26.44c6.249-5.614,12.378-13.378,18.384-23.291
+	c6.006-9.911,9.009-20.922,9.009-33.032c0-7.713-1.442-15.161-4.321-22.339c-2.882-7.178-6.91-13.5-12.085-18.97
+	c-5.177-5.468-11.183-9.764-18.018-12.891c-10.547-4.688-23.291-7.031-38.232-7.031c-12.403,0-23.218,1.831-32.446,5.493
+	s-16.846,8.473-22.852,14.429c-6.006,5.958-10.524,12.598-13.55,19.922c-3.028,7.324-4.541,14.355-4.541,21.094
+	c0,5.566,1.611,9.961,4.834,13.184s7.274,4.834,12.158,4.834c5.566,0,9.789-1.758,12.671-5.273
+	c2.879-3.516,5.468-8.544,7.764-15.088c2.293-6.542,3.93-10.547,4.907-12.012c7.324-11.229,17.381-16.846,30.176-16.846
+	c6.054,0,11.646,1.369,16.772,4.102c5.127,2.735,9.178,6.569,12.158,11.499c2.978,4.933,4.468,10.524,4.468,16.772
+	c0,5.763-1.392,11.646-4.175,17.651s-6.837,11.865-12.158,17.578c-5.324,5.713-11.989,11.403-19.995,17.065
+	c-4.493,3.028-11.964,9.352-22.412,18.97c-10.451,9.62-22.169,21.167-35.156,34.644c-3.126,3.321-6.006,7.887-8.643,13.696
+	c-2.637,5.812-3.955,10.474-3.955,13.989c0,5.47,2.051,10.231,6.152,14.282c4.102,4.054,9.814,6.079,17.139,6.079H306.6
+	c6.445,0,11.254-1.659,14.429-4.98c3.172-3.319,4.761-7.372,4.761-12.158C325.789,332.97,323.786,328.722,319.783,325.595z" />
+          </svg>
+ Primary Education: Building on foundational skills with a focus on literacy, numeracy, and critical thinking.
+        </li>
+        <li class="mb-2 flex items-start">
+          <svg class="flex-shrink-0 h-5 w-5 mr-2" viewBox="0 0 496.158 496.158" fill="currentColor"
+            aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+
+            <path style="fill:#5cab8f;;" d="M248.082,0.003C111.07,0.003,0,111.061,0,248.085c0,137,111.07,248.07,248.082,248.07
+	c137.006,0,248.076-111.07,248.076-248.07C496.158,111.061,385.088,0.003,248.082,0.003z" />
+            <path style="fill:#FFFFFF;" d="M319.637,269.711c-2.637-6.395-6.569-12.231-11.792-17.505c-5.226-5.273-11.646-9.961-19.263-14.063
+	c7.91-6.64,13.989-13.451,18.237-20.435c4.248-6.981,6.372-15.355,6.372-25.122c0-7.42-1.465-14.355-4.395-20.801
+	s-7.276-12.108-13.037-16.992c-5.763-4.882-12.55-8.617-20.361-11.206c-7.814-2.586-16.457-3.882-25.928-3.882
+	c-10.84,0-20.654,1.538-29.443,4.614s-16.139,7.155-22.046,12.231c-5.91,5.079-10.4,10.426-13.477,16.04
+	c-3.076,5.617-4.614,10.963-4.614,16.04c0,5.273,1.634,9.499,4.907,12.671c3.271,3.175,6.859,4.761,10.767,4.761
+	c3.319,0,6.249-0.586,8.789-1.758c2.538-1.172,4.296-2.783,5.273-4.834c1.659-3.809,3.49-7.86,5.493-12.158
+	c2-4.296,4.125-7.812,6.372-10.547c2.245-2.733,5.296-4.93,9.155-6.592c3.856-1.659,8.764-2.49,14.722-2.49
+	c8.789,0,15.77,2.71,20.947,8.13c5.175,5.42,7.764,11.891,7.764,19.409c0,9.865-3.248,17.432-9.741,22.705
+	c-6.496,5.273-14.234,7.91-23.218,7.91h-6.006c-6.935,0-12.158,1.442-15.674,4.321c-3.516,2.882-5.273,6.665-5.273,11.353
+	c0,4.786,1.465,8.521,4.395,11.206c2.93,2.687,7.079,4.028,12.451,4.028c1.172,0,3.809-0.194,7.91-0.586
+	c4.102-0.389,7.127-0.586,9.082-0.586c11.133,0,19.823,3.248,26.074,9.741c6.249,6.496,9.375,15.454,9.375,26.88
+	c0,7.716-1.831,14.502-5.493,20.361s-8.302,10.279-13.916,13.257c-5.617,2.98-11.451,4.468-17.505,4.468
+	c-10.547,0-18.727-3.296-24.536-9.888c-5.812-6.592-11.256-16.674-16.333-30.249c-0.783-2.245-2.442-4.175-4.98-5.786
+	c-2.541-1.611-5.177-2.417-7.91-2.417c-5.47,0-10.034,1.735-13.696,5.2c-3.662,3.468-5.493,8.034-5.493,13.696
+	c0,4.395,1.538,9.961,4.614,16.699s7.617,13.257,13.623,19.556s13.646,11.549,22.925,15.747c9.276,4.198,19.775,6.299,31.494,6.299
+	c11.522,0,22.046-1.831,31.567-5.493s17.748-8.739,24.683-15.234c6.933-6.493,12.181-13.891,15.747-22.192
+	c3.563-8.299,5.347-16.894,5.347-25.781C323.592,283.018,322.273,276.109,319.637,269.711z" />
+          </svg>
+Extracurricular Activities: Offering diverse opportunities in sports, music, arts, and clubs to develop well-rounded pupils who will impact the world.
+        </li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--Footer Section-->
+<footer class="bg-gradient-to-br from-green-700 to-green-900 py-16 text-white">
+  <div class="container px-6 py-12 mx-auto">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Quick Links
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <a href="index.html"
+            class=" transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Home</a>
+          <a href="about.html"
+            class=" transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">About</a>
+          <a href="contact_us.html"
+            class="transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">Contact
+            Us</a>
+          <a href="fees structure.html"
+            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Fees Structure</a>
+            <a href="results songs.html"
+            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Results & Songs</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Office Hours
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Monday
+            to Friday: 8:00 AM - 5:00 PM</p>
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Saturday: 9:00 AM - 1:00 PM</p>
+          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+            Sunday: Closed</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
+          Contact Us
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <p class="transition-colors duration-300 text-white font-semibold ">
+            Phone: +256782459302
+          </p>
+          <p class="transition-colors duration-300 text-white font-semibold">
+            Email: siminyudeo@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-6 border-white md:my-10 dark:border-white" />
+
+    <div class="flex flex-col items-center justify-between sm:flex-row">
+      <p class="mt-4 text-sm sm:mt-0 text-white font-semibold">
+        © <span id="currentYear"></span>  Kamuli Mixed Happy Hours P/S. All Rights Reserved.
+      </p>
+      <script>
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+      </script>
+    </div>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+
+<!--JavaScript to toggle menu visibility on small screens-->
+<script>
+  document.getElementById('toggleButton').addEventListener('click', function () {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('-translate-x-full');
+  });
+</script>
+</body>
