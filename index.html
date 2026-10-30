@@ -1,478 +1,1216 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="./images/favicon.ico" type="image/png" >
-
-  <meta name="description" content="Kamuli Mixed Happy Hours P/S is a spiritual-based school located in Eastern Uganda, Kamuli District, within Bunangwe Zone, Kamuli Municipality. Our goal is to equip learners with academic knowledge and core values essential for everyday life, including spiritual values and discipline.">
-<meta name="keywords" content="Kamuli Mixed Happy Hours, school, Eastern Uganda, Kamuli District, Bunangwe Zone, Kamuli Municipality, spiritual-based, academic knowledge, core values, spiritual values, discipline">
-<meta name="author" content="Kamuli Mixed Happy Hours Primary School official website">
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="2 days">
-
-  <!-- js  -->
-  <script src="js/main.js"></script>
-
   <title>Kamuli Mixed Happy Hours P/S official website</title>
+  <meta name="description" content="Kamuli Mixed Happy Hours P/S is a spiritual-based school located in Eastern Uganda, Kamuli District, within Bunangwe Zone, Kamuli Municipality. Our goal is to equip learners with academic knowledge and core values essential for everyday life, including spiritual values and discipline.">
+  <meta name="keywords" content="Kamuli Mixed Happy Hours, school, Eastern Uganda, Kamuli District, Bunangwe Zone, Kamuli Municipality, spiritual-based, academic knowledge, core values, spiritual values, discipline">
+  <meta name="author" content="Kamuli Mixed Happy Hours Primary School official website">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="2 days">
+  <meta name="theme-color" content="#15803d">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5" />
+  <script src="js/main.js?v=5" defer></script>
 </head>
-
-<!-- <body class="text-white"> -->
-<!--Hero section-->
-<div class="bg-white bg-landing">
-  <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <div class="flex lg:flex-1">
-        <a href="index.html" class="-m-1.5 p-1.5">
-          <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
-          <img class="h-8 w-auto" src="images/logo.svg" alt="Logo" />
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="#home" class="brand" aria-label="Kamuli Mixed Happy Hours P/S — Home">
+      <img src="images/logo.svg" alt="Kamuli Mixed Happy Hours P/S logo" width="48" height="48" />
+      <span class="brand-text">
+        <span class="brand-name">Kamuli Mixed Happy Hours</span>
+        <span class="brand-sub">Primary School</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+        <a href="#home" data-nav-link="home" class="active">Home</a>
+        <a href="#about" data-nav-link="about">About</a>
+        <a href="#fees" data-nav-link="fees">Fees Structure</a>
+        <a href="#results" data-nav-link="results">Results &amp; Songs</a>
+        <a href="#contact" data-nav-link="contact">Contact Us</a>
+    </nav>
+    <a href="#contact" class="btn btn-orange nav-cta">Admissions <svg class="i i-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    <button id="menuButton" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+      <svg class="i i-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg><svg class="i i-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
+        <a href="#home" data-nav-link="home" class="active">Home</a>
+        <a href="#about" data-nav-link="about">About</a>
+        <a href="#fees" data-nav-link="fees">Fees Structure</a>
+        <a href="#results" data-nav-link="results">Results &amp; Songs</a>
+        <a href="#contact" data-nav-link="contact">Contact Us</a>
+        <a href="#contact" class="btn btn-orange">Admissions <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+  </nav>
+</header>
+<main id="top">
+<!-- ================= HOME ================= -->
+<section class="hero" id="home" data-nav="home">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <span class="pill"><span class="pill-dot"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20"/><path d="M6 8h12"/></svg></span>Nothing Without God.</span>
+      <h1>Welcome to <span class="hl">Kamuli Mixed <em>Happy Hours</em> P/S</span></h1>
+      <p class="lead">
+        Kamuli Mixed Happy Hours P/S is located in Kamuli Municipality, Kamuli District along Brewer Road, Bunangwe zone.
+      </p>
+      <div class="btn-row">
+        <a href="#about" class="btn btn-primary">About Us <svg class="i i-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <a href="#fees" class="btn btn-outline">Our Fees Structure.</a>
+      </div>
+      <ul class="hero-facts">
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M9 7h.01"/><path d="M15 7h.01"/><path d="M10 10.5c.5.5 1.2.8 2 .8s1.5-.3 2-.8"/><path d="M5 21c0-3.9 3.1-7 7-7s7 3.1 7 7"/></svg>Nursery Wing</li>
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg>Primary Education</li>
+        <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>Christian Founded</li>
+      </ul>
+    </div>
+    <div class="hero-media reveal d2">
+      <span class="hero-ring" aria-hidden="true"></span>
+      <span class="hero-dots" aria-hidden="true"></span>
+      <div class="photo">
+        <img src="images/3.jpg" alt="Pupils and teachers of Kamuli Mixed Happy Hours P/S gathered in front of the school" width="1280" height="859" fetchpriority="high" />
+      </div>
+      <div class="float-cards">
+        <div class="float-card float-a">
+          <span class="float-icon orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg></span>
+          <span><strong>Leading the district in PLE</strong><small>for the last ten years</small></span>
+        </div>
+        <a href="#results" class="float-card float-b">
+          <span class="float-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg></span>
+          <span><strong>Results &amp; Songs</strong><small>Results For Previous Years</small></span>
         </a>
       </div>
-      <div class="flex lg:hidden">
-        <button id="toggleButton"
-          class="block lg:hidden text-green-600 focus:outline-none bg-transparent hover:bg-green-700">
-          <svg fill="white" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-297 -297 891.00 891.00" xml:space="preserve"
-            stroke="white" stroke-width="0.00297">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-              <g>
-                <g>
-                  <g>
-                    <path
-                      d="M280.214,39.211H16.786C7.531,39.211,0,46.742,0,55.997v24.335c0,9.256,7.531,16.787,16.786,16.787h263.428 c9.255,0,16.786-7.531,16.786-16.787V55.997C297,46.742,289.469,39.211,280.214,39.211z">
-                    </path>
-                    <path
-                      d="M280.214,119.546H16.786C7.531,119.546,0,127.077,0,136.332v24.336c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.336C297,127.077,289.469,119.546,280.214,119.546z">
-                    </path>
-                    <path
-                      d="M280.214,199.881H16.786C7.531,199.881,0,207.411,0,216.668v24.335c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.335C297,207.411,289.469,199.881,280.214,199.881z">
-                    </path>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </button>
-      </div>
-      <div class="hidden lg:flex lg:gap-x-12  text-white">
-        <a href="index.html" class="text-sm font-semibold leading-6   hover:text-[#f97316]">Home</a>
-        <a href="about.html" class="text-sm font-semibold leading-6   hover:text-[#f97316]">About</a>
-        <a href="contact_us.html" class="text-sm font-semibold leading-6   hover:text-[#f97316]">Contact
-          Us</a>
-        <a href="fees structure.html" class="text-sm font-semibold leading-6   hover:text-[#f97316]">Fees Structure</a>
-          <a href="results songs.html" class="text-sm font-semibold leading-6   hover:text-[#f97316]">Results & Songs</a>
-      </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
-    </nav>
+    </div>
+  </div>
+</section>
 
-    <!-- Mobile menu, show/hide based on menu open state. -->
-    <div id="sidebar"
-      class="lg:hidden bg-gray-800 text-white fixed inset-y-0 left-0 w-56 transform -translate-x-full transition duration-200 ease-in-out">
-      <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-50"></div>
-      <div
-        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-        <div class="flex items-center justify-between">
-          <a href="index.html" class="-m-1.5 p-1.5">
-            <span class="sr-only">Kamuli Mixed Happy Hours P/S</span>
-            <img class="h-8 w-auto" src="images/logo.svg" alt="" />
-          </a>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about" data-nav="about">
+  <div class="container split media-first">
+    <div class="reveal">
+      <span class="eyebrow">About Us</span>
+      <h2 class="title">About Us</h2>
+      <p class="lead">
+        Kamuli Mixed Happy Hours Primary School is a private mixed school.
+        It is a Christian founded school bracing children of every faith.
+        Kamuli Mixed Happy Hours also has a Nursery wing that is fully equipped and giving excellent services.
+        The school is located in Kamuli Municipality, Kamuli District along Brewer Road, Bunangwe zone.
+        The school has been leading the district in PLE for the last ten years.
+      </p>
+    </div>
+    <div class="media media-deco alt reveal d2">
+      <div class="photo photo-4x3">
+        <img src="images/152.jpg" alt="Pupils and staff at the school compound with the flags flying" loading="lazy" width="1280" height="859" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- More About Us -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">More About Us</span>
+      <h2 class="title">More About Us</h2>
+      <p class="lead">At Kamuli Mixed Happy Hours P/S, we are committed to providing bursaries, fostering professional development, and delivering impactful education that shapes bright futures for our pupils through the following aspects</p>
+    </div>
+    <div class="grid-2">
+      <div class="card card-accent reveal">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg></span>
+        <h3>Scholarships and Support</h3>
+        <p>We offer bursaries to pupils with academic potential but lacking financial resources. Our program addresses financial challenges, ensuring every child can achieve their educational goals.</p>
+      </div>
+      <div class="card card-accent reveal d1">
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></span>
+        <h3>Professional Development</h3>
+        <p>We invest in continuous professional development for our teachers. Regular training, workshops, and educational resources equip them with the latest teaching methodologies and best practices.</p>
+      </div>
+      <div class="card card-accent reveal">
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+        <h3>Our Impact</h3>
+        <p>Since 2011, we have impacted Kamuli's education. Our pupils excel in higher education and professions. They contribute positively to communities.</p>
+      </div>
+      <div class="card card-accent reveal d1">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+        <h3>Join Our Family</h3>
+        <p>Join the Kamuli Mixed Happy Hours P/S family. Parents, pupils, educators, and partners are welcome. Help us nurture young minds and inspire innovation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What We Stand For -->
+<section class="section">
+  <div class="container split media-first">
+    <div class="reveal">
+      <span class="eyebrow">What We Stand For</span>
+      <h2 class="title">What We Stand For</h2>
+      <div class="mvv">
+        <div class="mvv-item">
+          <span class="icon-chip solid"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20"/><path d="M6 8h12"/></svg></span>
+          <div>
+            <h3>Our Motto</h3>
+            <p class="motto-text">Nothing Without God.</p>
+          </div>
         </div>
-        <div class="mt-6 flow-root">
-          <div class="-my-6 divide-y divide-gray-500/10 ">
-            <div class="space-y-2 py-6 ">
-              <a href="index.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7   text-green-600 hover:text-[#215b4b]">Home</a>
-              <a href="about.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">About</a>
-              <a href="contact_us.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Contact
-                Us</a>
-              <a href="fees structure.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Fees Structure</a>
-                <a href="results songs.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Results & Songs</a>
+        <div class="mvv-item">
+          <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+          <div>
+            <h3>Our Mission</h3>
+            <p>To produce world intellectuals, researchers, evangelists and leaders who are able to address practical needs of people.</p>
+          </div>
+        </div>
+        <div class="mvv-item">
+          <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span>
+          <div>
+            <h3>Our Vision</h3>
+            <p>To transform society, lead the nation and impact the world.</p>
+          </div>
+        </div>
+        <div class="mvv-item">
+          <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg></span>
+          <div>
+            <h3>Our Goal</h3>
+            <p>Focused on excellence of your children and equipping them with skills</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="media media-deco reveal d2">
+      <div class="photo photo-3x2">
+        <img src="images/compound.png" alt="Smiling pupils celebrating at the school" loading="lazy" width="900" height="600" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Philosophy and Core Values -->
+<section class="section section-green">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Philosophy</span>
+      <h2 class="title">Our Philosophy .</h2>
+      <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+      <p class="lead" style="margin-top:0">
+        We operate on the philosophy that quality education should be
+        accessible to everyone. We nurture each child's potential,
+        ensuring they perform to the best of their ability. Our approach
+        emphasizes individual learning, tailoring our teaching methods to
+        meet the unique needs of every student.
+      </p>
+    </div>
+    <h3 class="subhead reveal">Our Core Values.</h3>
+    <div class="grid-3">
+      <div class="glass reveal">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></span>
+        <h3>Innovation.</h3>
+        <p>Striving for the highest standards in education and personal conduct.</p>
+      </div>
+      <div class="glass reveal d1">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Integrity</h3>
+        <p>Promoting honesty, respect, and responsibility among pupils and staff.</p>
+      </div>
+      <div class="glass reveal d2">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+        <h3>Community</h3>
+        <p>Building strong, supportive relationships within and outside the school</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Programs -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">Our Programs</span>
+        <h2 class="title">Our Programs</h2>
+        <p class="lead">At Kamuli Mixed Happy Hours P/S, we offer comprehensive education, focusing on core subjects, critical thinking, extracurricular activities, and technology integration to prepare students for future success.</p>
+        <div class="feature-list">
+          <div class="feature">
+            <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+            <div>
+              <h3>Academic Excellence.</h3>
+              <p>Our curriculum is designed to challenge and engage students, preparing them for higher education and beyond.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.56-2.5 5.56-5.55C21.97 6.01 17.46 2 12 2z"/></svg></span>
+            <div>
+              <h3>Extracurricular Activities</h3>
+              <p>We offer a variety of extracurricular activities, including sports, arts, and music, to develop our students' talents and interests.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+            <div>
+              <h3>Student Support Services</h3>
+              <p>We provide support services to help students with their academic and personal development, including counselling and mentoring.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="relative isolate px-6 pt-14 lg:px-8">
-    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-     
-      <div class="text-center">
-        <h1 class="text-4xl font-bold text-green-600 sm:text-6xl">
-          Welcome to <br>Kamuli Mixed Happy Hours P/S</span>
-        </h1>
-        <p class="mt-6 text-lg leading-8  text-white">
-          Kamuli Mixed Happy Hours P/S is located in Kamuli Municipality, Kamuli District along Brewer Road, Bunangwe zone.
-        </p>
-        <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="about.html"
-            class="rounded-md bg-gradient-to-b from-green-500 to-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:text-[#215b4b] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About Us</a>
-          <a href="fees structure.html"
-            class="ounded-md bg-gradient-to-b from-green-500 to-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:text-[#215b4b] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Our Fees Structure.</a>
+      <div class="media media-deco reveal d2">
+        <div class="photo photo-4x3">
+          <img src="images/67.jpg" alt="Pupils walking across the school field in their green uniforms" loading="lazy" width="1280" height="859" />
         </div>
       </div>
     </div>
+
+    <h3 class="subhead reveal" style="margin-top:4.5rem">Academic Programs</h3>
+    <p class="lead reveal" style="margin-top:.25rem;margin-bottom:1.75rem">Our academic programs are designed to provide a balanced and comprehensive education. We offer:</p>
+    <ol class="num-list num-grid">
+      <li class="reveal"><p><strong>Early Childhood/Nursery Education:</strong> Laying a strong foundation in the early years through baby, middle and top class.</p></li>
+      <li class="reveal d1"><p><strong>Primary Education:</strong> Building on foundational skills with a focus on literacy, numeracy, and critical thinking.</p></li>
+      <li class="reveal d2"><p><strong>Extracurricular Activities:</strong> Offering diverse opportunities in sports, music, arts, and clubs to develop well-rounded pupils who will impact the world.</p></li>
+    </ol>
+
+    <div class="grid-3" style="margin-top:1.5rem">
+      <div class="card card-accent reveal">
+        <span class="icon-chip solid"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20"/><path d="M6 8h12"/></svg></span>
+        <h3>Religious Affiliation.</h3>
+        <p>We nurture our pupils to fear God, as it is biblical that the fear of the lord is the beginning of wisdom <strong>(Proverbs 1:7).</strong></p>
+      </div>
+      <div class="card card-accent reveal d1">
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.13-.29-.29-.44-.65-.44-1.13a1.64 1.64 0 0 1 1.67-1.67h2c3.05 0 5.56-2.5 5.56-5.55C21.97 6.01 17.46 2 12 2z"/></svg></span>
+        <h3>Extracurricular Activities</h3>
+        <p>We promote well-rounded development through sports like football and netball, creative expression in arts and music, and diverse clubs nurturing special interests and talents.</p>
+      </div>
+      <div class="card card-accent reveal d2">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg></span>
+        <h3>Special Programs</h3>
+        <p>We provide tailored support with remedial classes, enrichment for gifted students, and counseling services to support emotional well-being and academic success.</p>
+      </div>
+      <div class="card card-accent reveal">
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+        <h3>Community Engagement and Service Learning</h3>
+        <p>We foster community engagement through service projects, environmental education emphasizing sustainability and doing community outreaches.</p>
+      </div>
+      <div class="card card-accent reveal d1">
+        <span class="icon-chip solid"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+        <h3>Academics.</h3>
+        <p>We have a well qualified staff with experience to equip our learners with the best academic knowledge. We also have a fully stocked library to support learners to read more and make research.</p>
+      </div>
+      <div class="card card-accent reveal d2">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+        <h3>Health and Wellness</h3>
+        <p>We promote health with education on nutrition and hygiene, regular physical activity for fitness, and nutritious meals supporting students' overall well-being.</p>
+      </div>
+    </div>
   </div>
-</div>
-<!-- End of Hero Section -->
+</section>
 
-<!-- Programs Section section-->
-<div class="overflow-hidden bg-white pt-32 pb-32">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div
-      class="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <!-- Text Section -->
-      <div class="text-section order-2 lg:order-1 lg:pr-8 lg:pt-4">
-        <div class="relative mx-auto max-w-7xl sm:statics">
-          <div class="sm:max-w-lg">
-            <p class="mt-2 text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">
-              Our Programs
-            </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">
-              The following are the programs from our school.
-            </p>
-            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor"
-                    aria-hidden="true">
-                    <path
-                      d="M10 2L1 7l9 5 9-5-9-5zm0 11.4l-4.8-2.6L10 8.4l4.8 2.4L10 13.4zm0 1.6l-7.5-4.2V15l7.5 4.2 7.5-4.2v-3.2L10 15z" />
-                  </svg>
-                  Academic Excellence.
-                </dt>
-                <dd class="inline">
-                  Our curriculum is designed to challenge and engage students,
-                  preparing them for higher education and beyond.
-                </dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor"
-                    aria-hidden="true">
-                    <path fill-rule="evenodd"
-                      d="M4.917 2.35a1 1 0 011.18.809L6.5 6h7l.403-2.84a1 1 0 111.98.282l-1.8 12.5A1 1 0 0113.092 17H6.908a1 1 0 01-.991-.842l-1.8-12.5a1 1 0 01.8-1.18zM11 16a1 1 0 100 2 1 1 0 000-2zm-2 0a1 1 0 100 2 1 1 0 000-2z"
-                      clip-rule="evenodd" />
-                  </svg>
-                  Extracurricular Activities
-
-                </dt>
-                <dd class="inline">
-                  We offer a variety of extracurricular activities, including
-                  sports, arts, and music, to develop our students' talents
-                  and interests.
-                </dd>
-              </div>
-              <div class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <svg class="absolute left-1 top-1 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor"
-                    aria-hidden="true">
-                    <path fill-rule="evenodd"
-                      d="M18 8a6 6 0 11-12 0A6 6 0 0118 8zm-6-4a4 4 0 100 8 4 4 0 000-8zM2 9a1 1 0 011 1v7a1 1 0 001 1h12a1 1 0 001-1v-7a1 1 0 112 0v7a3 3 0 01-3 3H4a3 3 0 01-3-3v-7a1 1 0 011-1z"
-                      clip-rule="evenodd" />
-                  </svg>
-                  Student Support Services
-
-                </dt>
-                <dd class="inline">
-                  We provide support services to help students with their
-                  academic and personal development, including counselling and
-                  mentoring.
-                </dd>
-              </div>
-            </dl>
+<!-- Educational Philosophy -->
+<section class="section">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Educational Philosophy</span>
+      <h2 class="title">Educational Philosophy</h2>
+      <p class="lead">Our educational philosophy is centred on the belief that each child is unique and deserves personalised learning experiences. We focus on:</p>
+      <div class="feature-list">
+        <div class="feature">
+          <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+          <div>
+            <h3>Individual Attention</h3>
+            <p>Striving for the highest standards in education and personal conduct.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+          <div>
+            <h3>Lifelong Learning</h3>
+            <p>Building strong, supportive relationships within and outside the school.</p>
           </div>
         </div>
       </div>
-      <!-- Image Section -->
-      <div class="image-section order-1 lg:order-2 mt-5 lg:mt-0 flex justify-between">
-        <div class="flex items-center space-x-6 lg:space-x-8 justify-center">
-          <img src="images/3.jpg" alt="" class="h-full w-full object-cover object-center rounded-md">
-        </div>
+    </div>
+    <div class="media media-deco reveal d2">
+      <div class="photo photo-3x2">
+        <img src="images/pupil 4.jpg" alt="Young graduates in caps and gowns celebrating with parents and teachers" loading="lazy" width="900" height="600" />
       </div>
     </div>
   </div>
-</div>
-<!-- End of Programs Section -->
+</section>
 
-<!-- About Section-->
-<div class="relative bg-white py-24 sm:py-32 bg-image">
-  <div class="mx-auto max-w-7xl px-6 sm:px-6  lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-3xl font-bold tracking-tight  text-green-600 sm:text-4xl">
-        About Us
-      </h2>
-      <p class="mt-6 text-lg leading-8 text-gray-300">
-        Kamuli Mixed Happy Hours Primary School is a private mixed school.
-It is a Christian founded school bracing children of every faith.
-Kamuli Mixed Happy Hours also has a Nursery wing that is fully equipped and giving excellent services.
-The school is located in Kamuli Municipality, Kamuli District along Brewer Road, Bunangwe zone.
-The school has been leading the district in PLE for the last ten years. 
-      </p>
+<!-- What We Offer -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Offer</span>
+      <h2 class="title">What We Offer</h2>
+      <p class="lead">Discover what makes Kamuli Mixed Happy Hours P/S unique, from scholarships to community engagement and individualized learning.</p>
     </div>
-    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-      <div
-        class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-2 md:flex lg:gap-x-10 text-white">
-        <a href="index.html" class="hover:text-[#f97316]">Home<span aria-hidden="true">&rarr;</span></a>
-        <a href="about.html" class="hover:text-[#f97316]">About<span aria-hidden="true">&rarr;</span></a>
-        <a href="contact_us.html" class="hover:text-[#f97316]">Contact Us<span aria-hidden="true">&rarr;</span></a>
-        <a href="fees structure.html" class="hover:text-[#f97316]">Fees Structure<span
-            aria-hidden="true">&rarr;</span></a>
-            <a href="resources.html" class="hover:text-[#f97316]">Resources<span
-              aria-hidden="true">&rarr;</span></a>
-      </div>
-      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-        <div>
-          <dd class="text-2xl font-semibold leading-9 tracking-tight  text-green-600">Admissions</dd>
-          <dt class="text-base leading-7 text-gray-300">Contact our admissions office for more information.</dt>
-        </div>
-        <div>
-          <dd class="text-2xl font-semibold leading-9 tracking-tight  text-green-600">Contact Information</dd>
-          <dt class="text-base leading-7 text-gray-300">Phone: +256782459302</dt>
-          <dt class="text-base leading-7 text-gray-300">Email: siminyudeo@gmail.com</dt>
-        </div>
-        <div>
-          <dd class="text-2xl font-semibold leading-9 tracking-tight  text-green-600">Office Hours</dd>
-          <dt class="text-base leading-7 text-gray-300"> Monday- Friday: 8:00am- 5:00am</dt>
-          <dt class="text-base leading-7 text-gray-300">Saturday: 9am-1pm.</dt>
-        </div>
-        <div>
-          <dd class="text-2xl font-semibold leading-9 tracking-tight  text-green-600">Our Goal </dd>
-          <dt class="text-base leading-7 text-gray-300">Focused on excellence of your children</dt>
-          <dt class="text-base leading-7 text-gray-300">and equipping them with skills</dt>
-
-        </div>
-      </dl>
+    <div class="grid-3">
+      <article class="card card-accent reveal">
+        <span class="card-num" aria-hidden="true">01</span>
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg></span>
+        <h3>Bursaries.</h3>
+        <p>At Kamuli Mixed Happy Hours P/S, we believe in the potential of every child and offer bursaries to intellectually capable students lacking financial backing. Our bursaries program focuses on providing merit-based free education to deserving students, ensuring they have the opportunity to succeed.</p>
+      </article>
+      <article class="card card-accent reveal d1">
+        <span class="card-num" aria-hidden="true">02</span>
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+        <h3>Community Engagement</h3>
+        <p>Located in Kamuli Municipality, Kamuli Mixed Happy Hours P/S is deeply rooted in the community, engaging with local families, particularly low-income farmers, to promote the importance of quality education. We engage with organizations to enhance our pupil's educational journey.</p>
+      </article>
+      <article class="card card-accent reveal d2">
+        <span class="card-num" aria-hidden="true">03</span>
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg></span>
+        <h3>Why Choose Us?</h3>
+        <p>We offer individualized learning tailored to each pupil's unique needs, delivered by experienced teachers committed to excellence. Our safe, nurturing environment allows pupils to focus on their studies, while our holistic approach ensures their overall development for all aspects of life.</p>
+      </article>
     </div>
   </div>
-</div>
-<!-- End of About Section -->
+</section>
 
-<!-- Mission Vision Section -->
-<div class="bg-white">
-  <div class="mx-auto max-w-7xl py-24 px-6 sm:px-6 lg:py-32">
-    <div class="flex flex-col-reverse lg:flex-row lg:gap-x-20 justify-between">
-      <div class="image-section lg:w-1/2 py-16 lg:py-0">
-        <img class="rounded-md bg-white/5 ring-1 ring-white/10" src="images/compound.png" alt="App screenshot"
-          style="width: 100%; height: auto;" />
-      </div>
-      <div class="mt-16 lg:mt-0 lg:w-1/2 ">
-        <p class="text-3xl font-bold tracking-tight text-green-600 sm:text-4xl sub-title">
-          What We Stand For
-        </p>
-        
-        <h3 class="text-xl font-bold tracking-tight text-green-600 mt-4 sm:text-2xl">Our Motto</h3>
-        <dd class="mt-2 text-base leading-6 text-black-500">
-          Nothing Without God.</dd>
+<!-- ================= FEES ================= -->
+<section class="section" id="fees" data-nav="fees">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Fees Structure</span>
+      <h2 class="title">Our Fees Structure</h2>
+    </div>
 
-        <h3 class="text-xl font-bold tracking-tight text-green-600 sm:text-2xl mt-4">
-          Our Mission
-        </h3>
-        <dd class="mt-2 text-base leading-6 text-black-500">
-          To produce world intellectuals,researchers,evangelists
-          and leaders who are able to address practical needs of people.</dd>
-        <h3 class="text-xl font-bold tracking-tight text-green-600 mt-4 sm:text-2xl">
-          Our Vision</h3>
-        <dd class="mt-2 text-base leading-6 text-black-500">
-          To transform society,lead the nation and impact the world.</dd>
+    <div class="fee-grid">
+      <div class="fee-card reveal">
+        <div class="fee-card-head">
+          <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg></span>
+          <div><span>1.</span><h3>Day Section</h3></div>
+        </div>
+        <div class="fee-rows">
+          <div class="fee-table-head"><span>CLASS</span><span>FEES</span></div>
+          <ul>
+            <li><span class="cls">Nursery</span><span class="amt"><small>UGX</small>250,000</span></li>
+            <li><span class="cls">P.1 - P.4</span><span class="amt"><small>UGX</small>315,000</span></li>
+            <li><span class="cls">P.5 - P.6</span><span class="amt"><small>UGX</small>320,000</span></li>
+          </ul>
+        </div>
       </div>
+      <div class="fee-card reveal d1">
+        <div class="fee-card-head alt">
+          <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg></span>
+          <div><span>2.</span><h3>Boarding Section</h3></div>
+        </div>
+        <div class="fee-rows">
+          <div class="fee-table-head"><span>CLASS</span><span>FEES</span></div>
+          <ul>
+            <li><span class="cls">Nursery - P.6</span><span class="amt"><small>UGX</small>540,000</span></li>
+            <li><span class="cls">P.7</span><span class="amt"><small>UGX</small>550,000</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="req-card reveal" id="requirements">
+      <h3><span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M9 12h6"/><path d="M9 16h6"/></svg></span>Other Requirements per Pupil</h3>
+      <ul class="req-list">
+        <li><span>Class Sweater = UGX 35,000</span></li>
+        <li><span>Sports Wear (1) = UGX 35,000</span></li>
+        <li><span>School Uniform (2 x 35,000) = UGX 70,000</span></li>
+        <li><span>Sunday Wear = UGX 25,000</span></li>
+        <li><span>Day Wear (2 Pairs x 20,000) = UGX 40,000</span></li>
+        <li><span>Casual Sweater = UGX 35,000</span></li>
+        <li><span>Pocket Money (Nursery - P.7) = UGX 65,000 <small>(Paid at school)</small></span></li>
+        <li><span>Ream of Paper = UGX 29,000</span></li>
+        <li><span>Development Fee = UGX 55,000 <small>(One-time payment)</small></span></li>
+        <li><span>Plate = UGX 5,000 per year</span></li>
+        <li><span>Squeezer (1) = UGX 7,000</span></li>
+        <li><span>Shaving/Trimming Fee = UGX 3,000 per term</span></li>
+        <li><span>Rags (2 x 4,000) = UGX 8,000 <small>(Nursery - P.4)</small></span></li>
+        <li><span>Scrubbing Brush (1) = UGX 8,000 <small>(P.5 - P.6)</small></span></li>
+      </ul>
+      <p class="nb"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg><span><strong>NB:</strong> Additional requirements are listed on the Admission Form.</span></p>
     </div>
   </div>
-</div>
-<!-- End of Mission Vision Section -->
+</section>
 
-<!-- Philosophy Section-->
-<div class="relative isolate overflow-hidden bg-gradient-to-br from-green-700 to-green-900 py-16 sm:py-24 lg:py-32">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
-      <div class="max-w-xl lg:max-w-lg">
-        <h2 class="text-3xl font-bold tracking-tight  text-green-600 sm:text-4xl">
-          Our Philosophy .
-        </h2>
-        <p class="mt-4 text-lg leading-8 text-white">
-          We operate on the philosophy that quality education should be
-          accessible to everyone. We nurture each child's potential,
-          ensuring they perform to the best of their ability. Our approach
-          emphasizes individual learning, tailoring our teaching methods to
-          meet the unique needs of every student.
-        </p>
-      </div>
-      <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2 text-white">
-        <div class="flex flex-col items-start">
-          <dt class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl">Admissions</dt>
-          <dd class="mt-2 leading-7">
-            Enroll your child at Kamuli Mixed Happy Hours P/S. Contact us
-            for application details and bursaries information using the provided
-            contacts.
-          </dd>
-        </div>
-        <div class="flex flex-col items-start text-white">
-          <dt class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl">Contact Information</dt>
-          <dd class="mt-2 leading-7">Phone: +256752459302</dd>
-          <dd class="mt-2 leading-7">
-            Email: siminyudeo@gmail.com
-          </dd>
-        </div>
-      </dl>
+<!-- Former pupils -->
+<section class="section section-soft" id="pupils">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Former Pupils</span>
+      <h2 class="title">What Our Former Pupils Say</h2>
+      <p class="lead">Discover the journeys and achievements of our former pupils as they share their experiences and successes.</p>
     </div>
-  </div>
-</div>
-<!-- End of Philosophy Section -->
- 
-<!-- What we Offer Section -->
-<div class="bg-white py-24 sm:py-32">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-3xl font-bold tracking-tight  text-green-600 sm:text-4xl">
-        What We Offer
-      </h2>
-      <p class="mt-2 text-lg leading-8 text-gray-900">
-        Discover what makes Kamuli Mixed Happy Hours P/S unique, from
-        scholarships to community engagement and individualized learning.
-      </p>
-    </div>
-    <div
-      class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex flex-col items-start">
-          <dt class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl">Bursaries.</dt>
-          <dd class="mt-2 leading-7 text-gray-900">
-            At Kamuli Mixed Happy Hours P/S, we believe in the potential
-            of every child and offerbursaries to intellectually capable
-            students lacking financial backing. Our bursaries program
-            focuses on providing merit-based free education to deserving
-            students, ensuring they have the opportunity to succeed.
-          </dd>
+    <div class="testimonials">
+      <article class="t-card reveal">
+        <div class="t-photo"><img src="images/Esther.jpg" alt="Siminyu Esther" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Siminyu Esther</h3>
+          <span class="t-tag">Medicine &amp; Surgery, Makerere University</span>
+          <p>Joined the school in 2004 in baby class and finished primary seven in 2013. She then went to Seeta High School for O'level in 2014-2017, then to St. Mary's College Lugazi for A'level in 2018. Joined Makerere University in 2021, currently a fifth-year student (2024) doing Medicine and Surgery.</p>
         </div>
       </article>
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex flex-col items-start">
-          <dt class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl">
-            Community Engagement
-          </dt>
-          <dd class="mt-2 leading-7 text-gray-900">
-            Located in Kamuli Municipality, Kamuli Mixed Happy Hours P/S is deeply
-            rooted in the community, engaging with local families,
-            particularly low-income farmers, to promote the importance of
-            quality education. We engage with organizations to enhance our pupil's educational journey.
-          </dd>
+      <article class="t-card reveal d1">
+        <div class="t-photo"><img src="images/Byansi.jpg" alt="Byansi William" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Byansi William</h3>
+          <span class="t-tag">Medicine &amp; Surgery, Mbarara University</span>
+          <p>Joined in 2003 in baby class and completed primary seven in 2011, emerging as the best pupil with four aggregates. Later joined Butiki College for O &amp; A levels, went to Mbarara University for Medicine and Surgery, now completed.</p>
         </div>
       </article>
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex flex-col items-start">
-          <dt class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl">
-            Why Choose Us?
-          </dt>
-          <dd class="mt-2 leading-7 text-gray-900">
-
-            We offer individualized learning tailored to each pupil's
-            unique needs, delivered by experienced teachers committed to
-            excellence. Our safe, nurturing environment allows pupils to
-            focus on their studies, while our holistic approach ensures
-            their overall development for all aspects of life.
-          </dd>
+      <article class="t-card reveal d2">
+        <div class="t-photo"><img src="images/Gafabusa.png" alt="Gafabusa Willy" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Gafabusa Willy</h3>
+          <span class="t-tag">Software Engineering, Makerere University</span>
+          <p>Joined the school in 2011 in primary four and finished primary seven in 2014 with four aggregates. Later joined Hilton High school Mukono for O'level, St. Michael International School Wakiso for A'level. Currently a fourth-year student(2024) doing Software Engineering at Makerere University.(developed this website, his email: <a href="mailto:willygafabusa@gmail.com">willygafabusa@gmail.com</a>)</p>
+        </div>
+      </article>
+      <article class="t-card reveal">
+        <div class="t-photo"><img src="images/Yunusu.jpg" alt="Ngobi Yunusu" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Ngobi Yunusu</h3>
+          <span class="t-tag">Civil Engineering, KIU</span>
+          <p>Joined the school in 2005 in baby class and finished primary seven in 2014 with four aggregates. Later joined Hilton High school Mukono for O'level and St. Mary's College Lugazi for A'level. Currently a fourth-year student (2024) at KIU doing Civil Engineering.</p>
+        </div>
+      </article>
+      <article class="t-card reveal d1">
+        <div class="t-photo"><img src="images/Mejje.JPG" alt="Mejje Emmanuel" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Mejje Emmanuel</h3>
+          <span class="t-tag">Bachelor of Pharmacy, Makerere University</span>
+          <p>He joined the school in 2010 in primary five and finished primary seven in 2012. Later joined Namilyango College for O &amp; A levels, then Makerere University in 2019 for a Bachelor's degree in Pharmacy, which he has completed.</p>
+        </div>
+      </article>
+      <article class="t-card reveal d2">
+        <div class="t-photo"><img src="images/Kituyi.jpg" alt="Kituyi Sophie" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Kituyi Sophie</h3>
+          <span class="t-tag">Civil Engineering, Makerere University</span>
+          <p>She joined the school in 2012 in primary seven. Later joined Nabisunsa Girls School for O &amp; A levels, and Makerere University in 2019 for a Bachelor's degree in Civil Engineering, which she has completed.</p>
+        </div>
+      </article>
+      <article class="t-card reveal">
+        <div class="t-photo"><img src="images/Jovianah.jpg" alt="Babirye Jovianah Patricia" loading="lazy" /></div>
+        <div class="t-body">
+          <h3>Babirye Jovianah Patricia</h3>
+          <span class="t-tag">Veterinary Medicine, Makerere University</span>
+          <p>She joined the school in 2008 in primary one and finished primary seven in 2014. Later joined Gayaza High School for O &amp; A levels, and is currently a fourth-year student (2024) doing Veterinary Medicine at Makerere University.</p>
         </div>
       </article>
     </div>
   </div>
-</div>
-<!-- End of What We Offer Section -->
+</section>
 
-<!--Footer Section-->
-<footer class="bg-gradient-to-br from-green-700 to-green-900 py-16 text-white">
-  <div class="container px-6 py-12 mx-auto">
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-      <div>
-        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
-          Quick Links
-        </p>
-
-        <div class="flex flex-col items-start mt-5 space-y-2">
-          <a href="index.html"
-            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Home</a>
-          <a href="about.html"
-            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">About</a>
-          <a href="contact_us.html"
-            class="transition-colors duration-300 text-white   hover:text-[#f97316] font-semibold">Contact
-            Us</a>
-          <a href="fees structure.html"
-            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Fees Structure</a>
-            <a href="results songs.html"
-            class="transition-colors duration-300 text-white hover:text-[#f97316] font-semibold">Results & Songs</a>
+<!-- ================= RESULTS & SONGS ================= -->
+<section class="section" id="results" data-nav="results">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Results &amp; Songs</span>
+      <h2 class="title">Results For Previous Years</h2>
+    </div>
+    <div class="year-grid">
+      <button type="button" class="year-card latest" data-year="2025" aria-controls="year-2025" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results<span class="badge-new">LATEST</span></span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2025</span>
+        <span class="yc-stats"><span><strong>38</strong><small>Division 1</small></span><span><strong>80</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:47.5%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2024" aria-controls="year-2024" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2024</span>
+        <span class="yc-stats"><span><strong>51</strong><small>Division 1</small></span><span><strong>83</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:61.4%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2023" aria-controls="year-2023" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2023</span>
+        <span class="yc-stats"><span><strong>47</strong><small>Division 1</small></span><span><strong>76</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:61.8%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2020" aria-controls="year-2020" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2020</span>
+        <span class="yc-stats"><span><strong>48</strong><small>Division 1</small></span><span><strong>82</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:58.5%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2016" aria-controls="year-2016" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2016</span>
+        <span class="yc-stats"><span><strong>70</strong><small>Division 1</small></span><span><strong>103</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:68.0%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2014" aria-controls="year-2014" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2014</span>
+        <span class="yc-stats"><span><strong>77</strong><small>Division 1</small></span><span><strong>107</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:72.0%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2013" aria-controls="year-2013" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2013</span>
+        <span class="yc-stats"><span><strong>73</strong><small>Division 1</small></span><span><strong>92</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:79.3%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2012" aria-controls="year-2012" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2012</span>
+        <span class="yc-stats"><span><strong>54</strong><small>Division 1</small></span><span><strong>71</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:76.1%"></span></span>
+      </button>
+      <button type="button" class="year-card" data-year="2011" aria-controls="year-2011" aria-expanded="false">
+        <span class="yc-top"><span class="yc-label">PLE Results</span><span class="yc-go"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span></span>
+        <span class="yc-year">2011</span>
+        <span class="yc-stats"><span><strong>58</strong><small>Division 1</small></span><span><strong>74</strong><small>Total</small></span></span>
+        <span class="yc-bar"><span style="width:78.4%"></span></span>
+      </button>
+    </div>
+    <div class="results-viewer" hidden>
+      <div class="viewer-head">
+        <div>
+          <span class="eyebrow">Results For Previous Years</span>
+          <h3 class="viewer-title">PLE Best Pupils</h3>
         </div>
+        <button type="button" class="btn btn-outline viewer-close"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg> Close</button>
+      </div>
+      <div class="year-switch" aria-label="Choose a year">
+        <button type="button" data-year="2011">2011</button>
+        <button type="button" data-year="2012">2012</button>
+        <button type="button" data-year="2013">2013</button>
+        <button type="button" data-year="2014">2014</button>
+        <button type="button" data-year="2016">2016</button>
+        <button type="button" data-year="2020">2020</button>
+        <button type="button" data-year="2023">2023</button>
+        <button type="button" data-year="2024">2024</button>
+        <button type="button" data-year="2025">2025</button>
       </div>
 
-      <div>
-        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
-          Office Hours
-        </p>
+      <!-- 2025 results -->
+      <div class="year-panel stack" id="year-2025" data-year="2025" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2025</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>38</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>40</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>2</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>FAILED</span></div>
+            <div class="stat" data-key="x"><strong>00</strong><span>ABSENT</span></div>
+            <div class="stat" data-key="total"><strong>80</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2025"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2025 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/003</td><td>AFAAYO JOSHUA</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/078</td><td>WAISWA EKISOFERI MARVIN</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/004</td><td>APIO LYN FAITH</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/076</td><td>TALUGENDE DAVID PHILBERT</td><td>1</td><td>2</td><td>3</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/064</td><td>NAMUGOLO LILLIAN RUTH</td><td>1</td><td>3</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/020</td><td>KIZITO EVANS</td><td>1</td><td>2</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/028</td><td>MAKOOMA NDIREKU JESSE</td><td>1</td><td>2</td><td>3</td><td>2</td><td>8</td></tr>
+              <tr><td>146233/038</td><td>MUKISA MARTHA PATIENCE</td><td>1</td><td>3</td><td>2</td><td>2</td><td>8</td></tr>
+              <tr><td>146233/015</td><td>KAUDHA CATHERINE</td><td>2</td><td>2</td><td>3</td><td>2</td><td>9</td></tr>
+              <tr><td>146233/021</td><td>KIZITO WAISWA EMMANUEL</td><td>2</td><td>2</td><td>3</td><td>2</td><td>9</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pdf-card">
+          <div class="pdf-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></div>
+          <div>
+            <h4>2025 PLE Results (PDF)</h4>
+            <p>Click links below to either view/download results PDF for a given year</p>
+          </div>
+          <div class="btn-row">
+            <a href="Results/2025 PLE results.pdf" target="_blank" rel="noopener" class="btn btn-outline"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg> View PDF</a>
+            <a href="Results/2025 PLE results.pdf" download="2025 PLE results.pdf" class="btn btn-orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg> Download PDF</a>
+          </div>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2024"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2024</strong></button></div>
+      </div>
+      <!-- 2024 results -->
+      <div class="year-panel stack" id="year-2024" data-year="2024" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2024</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>51</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>31</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>00</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>FAILED</span></div>
+            <div class="stat" data-key="x"><strong>01</strong><span>ABSENT</span></div>
+            <div class="stat" data-key="total"><strong>83</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2024"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2024 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/012</td><td>IZIZINGA NICKSON</td><td>2</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/051</td><td>MWESIGWA TREVOR</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/059</td><td>NALUMANSI DEBORAH</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/045</td><td>MUSOKE BENLINNY DEBORAH</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/058</td><td>NALUDHI JACOB CALVIN</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/062</td><td>NAMULI REGINA</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/082</td><td>WAIMAGA BOAZ</td><td>1</td><td>2</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/005</td><td>BACHUMIRWA ABIJAH</td><td>2</td><td>3</td><td>1</td><td>2</td><td>8</td></tr>
+              <tr><td>146233/010</td><td>BYAMUKAMA DAVIS</td><td>2</td><td>2</td><td>2</td><td>2</td><td>8</td></tr>
+              <tr><td>146233/013</td><td>KABBALE PROSPER</td><td>2</td><td>2</td><td>2</td><td>2</td><td>8</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pdf-card">
+          <div class="pdf-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></div>
+          <div>
+            <h4>2024 PLE Results (PDF)</h4>
+            <p>Click links below to either view/download results PDF for a given year</p>
+          </div>
+          <div class="btn-row">
+            <a href="Results/2024 PLE results.pdf" target="_blank" rel="noopener" class="btn btn-outline"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg> View PDF</a>
+            <a href="Results/2024 PLE results.pdf" download="2024 PLE results.pdf" class="btn btn-orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg> Download PDF</a>
+          </div>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2023"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2023</strong></button><button type="button" class="next" data-year="2025"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2025</strong></button></div>
+      </div>
+      <!-- 2023 results -->
+      <div class="year-panel stack" id="year-2023" data-year="2023" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2023</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>47</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>29</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>00</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>00</strong><span>X</span></div>
+            <div class="stat" data-key="total"><strong>76</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2023"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2023 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/070</td><td>Siminyu Mary</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/074</td><td>Wagaine Perezi Mweru</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/021</td><td>Kateme Hilda</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/005</td><td>Badagagha Cyrus</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/009</td><td>Gewu Cornelius Mweru</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/033</td><td>Madanda Patrick</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/046</td><td>Muwaga Mark</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/016</td><td>Kakande Owen</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/017</td><td>Kaleebi Priscilla</td><td>1</td><td>2</td><td>3</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/042</td><td>Mulumba Henry</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pdf-card">
+          <div class="pdf-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></div>
+          <div>
+            <h4>2023 PLE Results (PDF)</h4>
+            <p>Click links below to either view/download results PDF for a given year</p>
+          </div>
+          <div class="btn-row">
+            <a href="Results/2023 PLE results.pdf" target="_blank" rel="noopener" class="btn btn-outline"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg> View PDF</a>
+            <a href="Results/2023 PLE results.pdf" download="2023 PLE results.pdf" class="btn btn-orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg> Download PDF</a>
+          </div>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2020"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2020</strong></button><button type="button" class="next" data-year="2024"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2024</strong></button></div>
+      </div>
+      <!-- 2020 results -->
+      <div class="year-panel stack" id="year-2020" data-year="2020" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2020</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>48</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>34</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>0</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>0</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>0</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>0</strong><span>ABS</span></div>
+            <div class="stat" data-key="total"><strong>82</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2020"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2020 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/007</td><td>Kabiite Trevor</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/011</td><td>Kanaku Michael</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/009</td><td>Kaluya Joshua</td><td>2</td><td>1</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/026</td><td>Lubogo Ephraim</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/081</td><td>Weere Joshua</td><td>1</td><td>1</td><td>1</td><td>2</td><td>5</td></tr>
+              <tr><td>146233/006</td><td>Isumba Hudson</td><td>1</td><td>2</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/030</td><td>Mugabo Evans</td><td>1</td><td>1</td><td>1</td><td>3</td><td>6</td></tr>
+              <tr><td>146233/062</td><td>Namusoke Joselyne</td><td>1</td><td>2</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/017</td><td>Kirabo Dorcus</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/018</td><td>Kiraire Valerian</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2016"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2016</strong></button><button type="button" class="next" data-year="2023"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2023</strong></button></div>
+      </div>
+      <!-- 2016 results -->
+      <div class="year-panel stack" id="year-2016" data-year="2016" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2016</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>70</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>32</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>01</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>00</strong><span>ABS</span></div>
+            <div class="stat" data-key="total"><strong>103</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2016"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2016 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/102</td><td>Wambi Jesse</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/032</td><td>Katongole Benon Wilson</td><td>1</td><td>1</td><td>1</td><td>2</td><td>5</td></tr>
+              <tr><td>146233/065</td><td>Muwanguzi Abraham</td><td>1</td><td>2</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/066</td><td>Muwanguzi Solomon</td><td>2</td><td>1</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/074</td><td>Nabirye Winnie</td><td>2</td><td>1</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/078</td><td>Nalweni Edgar</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/038</td><td>Kitimbo Grace</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/046</td><td>Mboira Derrick</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/055</td><td>Mugweri Azaria Eric</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/064</td><td>Muwandi Gilbert Mpala</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2014"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2014</strong></button><button type="button" class="next" data-year="2020"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2020</strong></button></div>
+      </div>
+      <!-- 2014 results -->
+      <div class="year-panel stack" id="year-2014" data-year="2014" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2014</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>77</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>30</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>00</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>00</strong><span>ABS</span></div>
+            <div class="stat" data-key="total"><strong>107</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2014"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2014 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/024</td><td>Gafabusa Willy</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/092</td><td>Ngobi Yunusu</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/005</td><td>Babirye Jovianah Patricia</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/023</td><td>Etyanga Joshua</td><td>2</td><td>1</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/096</td><td>Okiria Martin</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/014</td><td>Bawereire Silvester</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/046</td><td>Lujja Isito</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/053</td><td>Mugaya Mark Sserubiri</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/003</td><td>Babalanda Richard</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/021</td><td>Dembe Amos</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/025</td><td>Isabirye Isima</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/073</td><td>Naigaga Salima</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2013"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2013</strong></button><button type="button" class="next" data-year="2016"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2016</strong></button></div>
+      </div>
+      <!-- 2013 results -->
+      <div class="year-panel stack" id="year-2013" data-year="2013" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2013</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>73</strong><span>DIV 1</span></div>
+            <div class="stat" data-key="2"><strong>19</strong><span>DIV 2</span></div>
+            <div class="stat" data-key="3"><strong>00</strong><span>DIV 3</span></div>
+            <div class="stat" data-key="4"><strong>00</strong><span>DIV 4</span></div>
+            <div class="stat" data-key="u"><strong>00</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>00</strong><span>ABS</span></div>
+            <div class="stat" data-key="total"><strong>92</strong><span>TOTAL</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2013"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2013 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">INDEX NO.</th><th scope="col">NAME</th><th scope="col">ENG</th><th scope="col">SCI</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">AGG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/082</td><td>Ntende Kenneth</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/001</td><td>Aboneka Victoria</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/079</td><td>Ngobi Reagan</td><td>1</td><td>1</td><td>1</td><td>2</td><td>5</td></tr>
+              <tr><td>146233/002</td><td>Achola Brenda Hope</td><td>1</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/012</td><td>Balaba Edgar</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/017</td><td>Benge Caroline</td><td>1</td><td>1</td><td>2</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/043</td><td>Mikenga Adonijah</td><td>1</td><td>2</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/065</td><td>Nakato Pauline</td><td>1</td><td>2</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/083</td><td>Okiring Peter</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/036</td><td>Lugaaya Isaac</td><td>1</td><td>1</td><td>2</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/038</td><td>Lwiire Livingstone</td><td>1</td><td>1</td><td>2</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/048</td><td>Mukisa Lawrence</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/056</td><td>Mwesigwa Andrew</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/080</td><td>Nkayi Emmanuel</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2012"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2012</strong></button><button type="button" class="next" data-year="2014"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2014</strong></button></div>
+      </div>
+      <!-- 2012 results -->
+      <div class="year-panel stack" id="year-2012" data-year="2012" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2012</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>54</strong><span>Div 1</span></div>
+            <div class="stat" data-key="2"><strong>17</strong><span>Div 2</span></div>
+            <div class="stat" data-key="3"><strong>0</strong><span>Div 3</span></div>
+            <div class="stat" data-key="4"><strong>0</strong><span>Div 4</span></div>
+            <div class="stat" data-key="u"><strong>0</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>0</strong><span>X</span></div>
+            <div class="stat" data-key="total"><strong>71</strong><span>Total</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2012"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2012 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">Index No.</th><th scope="col">Name</th><th scope="col">Eng</th><th scope="col">Sci</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">Agg</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/023</td><td>Kituyi Sophie</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/059</td><td>Simbwa Mark</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td></tr>
+              <tr><td>146233/013</td><td>Ikokole Paul Evans</td><td>1</td><td>1</td><td>1</td><td>2</td><td>5</td></tr>
+              <tr><td>146233/067</td><td>Wambi Denis</td><td>1</td><td>2</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/069</td><td>Wankya Max</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/030</td><td>Mejje Emmanuel</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/064</td><td>Waidha Reagan</td><td>2</td><td>2</td><td>1</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/066</td><td>Waiswa Muzamiru</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/058</td><td>Okiror Aloysius</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/014</td><td>Isabirye Tito</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/012</td><td>Igaga Jimmy</td><td>1</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/006</td><td>Bafulwime Derrick</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/065</td><td>Waiswa Gerald</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/057</td><td>Okello Jude</td><td>1</td><td>2</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/027</td><td>Lubowa Abbey</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/017</td><td>Kaleeba John Patrick</td><td>2</td><td>2</td><td>1</td><td>2</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="prev" data-year="2011"><small><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg> Previous year</small><strong>2011</strong></button><button type="button" class="next" data-year="2013"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2013</strong></button></div>
+      </div>
+      <!-- 2011 results -->
+      <div class="year-panel stack" id="year-2011" data-year="2011" hidden>
+        <div class="summary-card">
+          <h4>Summary of Grades for 2011</h4>
+          <div class="stats">
+            <div class="stat" data-key="1"><strong>58</strong><span>Div 1</span></div>
+            <div class="stat" data-key="2"><strong>16</strong><span>Div 2</span></div>
+            <div class="stat" data-key="3"><strong>0</strong><span>Div 3</span></div>
+            <div class="stat" data-key="4"><strong>0</strong><span>Div 4</span></div>
+            <div class="stat" data-key="u"><strong>0</strong><span>U</span></div>
+            <div class="stat" data-key="x"><strong>0</strong><span>X</span></div>
+            <div class="stat" data-key="total"><strong>74</strong><span>Total</span></div>
+          </div>
+          <div class="dist">
+            <div class="dist-bar" role="img" aria-label="Division distribution for 2011"></div>
+            <div class="dist-legend"></div>
+          </div>
+        </div>
+        <div class="table-card">
+          <div class="table-card-head">
+            <h4>2011 PLE Best Pupils</h4>
+          </div>
+          <table class="results-table">
+            <thead>
+              <tr><th scope="col">Index No.</th><th scope="col">Name</th><th scope="col">Eng</th><th scope="col">Sci</th><th scope="col">SST</th><th scope="col">MTC</th><th scope="col">Agg</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>146233/007</td><td>Byansi William</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/009</td><td>Erugu Pius</td><td>1</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+              <tr><td>146233/035</td><td>Musasizi Benjamin</td><td>2</td><td>1</td><td>1</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/020</td><td>Kangai Florence</td><td>2</td><td>1</td><td>2</td><td>1</td><td>6</td></tr>
+              <tr><td>146233/034</td><td>Mulungana Martin</td><td>1</td><td>1</td><td>2</td><td>2</td><td>6</td></tr>
+              <tr><td>146233/017</td><td>Kisakye Betty</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/031</td><td>Mulinda Brian</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/033</td><td>Mulumba Davis</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/049</td><td>Nakiirya Esther</td><td>2</td><td>2</td><td>2</td><td>1</td><td>7</td></tr>
+              <tr><td>146233/055</td><td>Namuganza Gloria</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+              <tr><td>146233/050</td><td>Nalwanga Racheal</td><td>2</td><td>1</td><td>2</td><td>2</td><td>7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><button type="button" class="next" data-year="2012"><small>Next year <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></small><strong>2012</strong></button></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="flex flex-col items-start mt-5 space-y-2">
-          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
-            Monday
-            to Friday: 8:00 AM - 5:00 PM</p>
-          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
-            Saturday: 9:00 AM - 1:00 PM</p>
-          <p class="transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
-            Sunday: Closed</p>
+<!-- Choir Songs -->
+<section class="section section-soft" id="songs">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Choir Songs</span>
+      <h2 class="title">Choir Songs</h2>
+      <p class="lead">Click on the song in order to listen and you can also download, enjoy🥰❤.</p>
+    </div>
+
+    <div class="player reveal" data-player>
+      <div class="now-playing">
+        <div class="disc" aria-hidden="true"><img src="images/logo.svg" alt="" /></div>
+        <span class="np-label">Now Playing</span>
+        <h3 class="np-title">Abazade</h3>
+        <span class="np-sub">Kamuli Mixed Happy Hours P/S Choir</span>
+        <div class="np-progress">
+          <span class="t-cur">0:00</span>
+          <input class="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Seek">
+          <span class="t-dur">0:00</span>
+        </div>
+        <div class="np-controls">
+          <button class="ctrl ctrl-prev" type="button" aria-label="Previous song"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 20 9 12l10-8v16Z"/><path d="M5 19V5"/></svg></button>
+          <button class="ctrl ctrl-play" type="button" aria-label="Play or pause"><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><svg class="i i-fill i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg></button>
+          <button class="ctrl ctrl-next" type="button" aria-label="Next song"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 4 10 8-10 8V4Z"/><path d="M19 5v14"/></svg></button>
+        </div>
+        <div class="np-download"><a href="songs/Abazade.mp3" download><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg> Download</a></div>
+      </div>
+
+      <ol class="playlist">
+        <li class="track" data-src="songs/Abazade.mp3" data-title="Abazade">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">01</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Abazade</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Abazade.mp3" download aria-label="Download Abazade"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Congratulations.mp3" data-title="Congratulations">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">02</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Congratulations</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Congratulations.mp3" download aria-label="Download Congratulations"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Gyetuvude.mp3" data-title="Gyetuvude">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">03</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Gyetuvude</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Gyetuvude.mp3" download aria-label="Download Gyetuvude"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Jesus Hold My Hand.mp3" data-title="Jesus Hold My Hand">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">04</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Jesus Hold My Hand</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Jesus Hold My Hand.mp3" download aria-label="Download Jesus Hold My Hand"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Noah.mp3" data-title="Noah">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">05</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Noah</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Noah.mp3" download aria-label="Download Noah"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/School Anthem.mp3" data-title="School Anthem">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">06</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">School Anthem</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/School Anthem.mp3" download aria-label="Download School Anthem"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Tewali Akwenkana.mp3" data-title="Tewali Akwenkana">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">07</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Tewali Akwenkana</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Tewali Akwenkana.mp3" download aria-label="Download Tewali Akwenkana"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+        <li class="track" data-src="songs/Tulina Katonda.mp3" data-title="Tulina Katonda">
+          <button class="track-btn" type="button"><span class="track-num"><span class="n">08</span><svg class="i i-fill i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></svg><span class="eq"><span></span><span></span><span></span></span></span><span class="track-title">Tulina Katonda</span><span class="track-time"></span></button>
+          <a class="track-dl" href="songs/Tulina Katonda.mp3" download aria-label="Download Tulina Katonda"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact" data-nav="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Contact Us</span>
+      <h2 class="title">Get in Touch With Us.</h2>
+      <p class="lead">For any inquiries on enrollment, or our activities, reach out to us.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card contact-card reveal">
+        <span class="icon-chip solid"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+        <div>
+          <h3>Phone</h3>
+          <p><a href="tel:+256782459302">+256782459302</a></p>
         </div>
       </div>
-      <div>
-        <p class="text-2xl font-bold tracking-tight  text-white sm:text-2xl dark:text-green-600">
-          Contact Us
-        </p>
-
-        <div class="flex flex-col items-start mt-5 space-y-2">
-          <p class="transition-colors duration-300 text-white font-semibold ">
-            Phone: +256782459302
-          </p>
-          <p class="transition-colors duration-300 text-white font-semibold">
-            Email: siminyudeo@gmail.com
-          </p>
+      <div class="card contact-card reveal d1">
+        <span class="icon-chip orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
+        <div>
+          <h3>Email</h3>
+          <p><a href="mailto:siminyudeo@gmail.com">siminyudeo@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="card contact-card reveal d2">
+        <span class="icon-chip"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <div>
+          <h3>Location</h3>
+          <p>Bunangwe Zone, Kamuli District, Uganda.</p>
         </div>
       </div>
     </div>
 
-    <hr class="my-6 border-white md:my-10 dark:border-white" />
+    <div class="cta-band reveal" style="margin-top:2rem">
+      <div>
+        <h2>Admissions</h2>
+        <p>Interested in enrolling your child at Kamuli Mixed Happy Hours P/S, Contact our admissions office for more information about our application process, school fees and available bursaries and how they are given out.</p>
+        <p>Enroll your child at Kamuli Mixed Happy Hours P/S. Contact us for application details and bursaries information using the provided contacts.</p>
+      </div>
+      <div class="btn-row">
+        <a href="tel:+256782459302" class="btn btn-orange"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call Us</a>
+        <a href="#message" class="btn btn-ghost-light"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg> Send Message</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <div class="flex flex-col items-center justify-between sm:flex-row">
-      <p class="mt-4 text-sm sm:mt-0 text-white font-semibold">
-        © <span id="currentYear"></span>  Kamuli Mixed Happy Hours P/S. All Rights Reserved.
-      </p>
-      <script>
-        document.getElementById("currentYear").textContent =
-          new Date().getFullYear();
-      </script>
+<!-- Send us a message -->
+<section class="section section-soft" id="message">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Send Us a Message</span>
+      <h2 class="title">Send Us a Message Today</h2>
+      <p class="lead">In case you want to reach out to us via email, please feel free to do so by filling out the form below, we shall be glad to hear from you.</p>
+      <form action="https://formspree.io/f/mvgorozj" method="POST" class="form-card" style="margin-top:2rem">
+        <div class="form-grid" style="margin-top:0">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="Name" placeholder="Your name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="Email" placeholder="Your email address" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message-text">Message</label>
+            <textarea id="message-text" name="Message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </div>
+      </form>
+    </div>
+    <div class="reveal d2">
+      <div class="media media-deco">
+        <div class="photo photo-3x2">
+          <img src="images/3.jpg" alt="Pupils and teachers gathered in front of the school" loading="lazy" width="1280" height="859" />
+        </div>
+      </div>
+      <div class="card" style="margin-top:2rem">
+        <h3 style="margin-top:0">Office Hours</h3>
+        <ul class="info-list">
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Monday to Friday: 8:00 AM - 5:00 PM</li>
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Saturday: 9:00 AM - 1:00 PM</li>
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="" width="60" height="60" />
+          <strong>Kamuli Mixed Happy Hours P/S</strong>
+        </div>
+        <p class="footer-motto">&ldquo;Nothing Without God.&rdquo;</p>
+        <p class="footer-about">Kamuli Municipality, Kamuli District along Brewer Road, Bunangwe zone.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>Home</a></li>
+          <li><a href="#about"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>About</a></li>
+          <li><a href="#fees"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>Fees Structure</a></li>
+          <li><a href="#results"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>Results &amp; Songs</a></li>
+          <li><a href="#contact"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Office Hours</h4>
+        <ul class="footer-links">
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Monday to Friday: 8:00 AM - 5:00 PM</li>
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Saturday: 9:00 AM - 1:00 PM</li>
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Sunday: Closed</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+256782459302"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Phone: +256782459302</a></li>
+          <li><a href="mailto:siminyudeo@gmail.com"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>Email: siminyudeo@gmail.com</a></li>
+          <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Bunangwe Zone, Kamuli District, Uganda.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span class="current-year"></span> Kamuli Mixed Happy Hours P/S. All Rights Reserved.</p>
+      <a href="#home" class="to-top">Back to top <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg></a>
     </div>
   </div>
 </footer>
-<!-- End of Footer -->
-
-<!--JavaScript to toggle menu visibility on small screens-->
-<script>
-  document
-    .getElementById("toggleButton")
-    .addEventListener("click", function () {
-      const sidebar = document.getElementById("sidebar");
-      sidebar.classList.toggle("-translate-x-full");
-    });
-</script>
-
 </body>
-
 </html>
